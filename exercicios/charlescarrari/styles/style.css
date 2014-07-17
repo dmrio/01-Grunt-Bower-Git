@@ -1,0 +1,1115 @@
+@charset "CP850";
+/* line 17, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, sass/style.sass */
+body {
+  background: url(../imagens/bg-body.gif);
+  font-family: "Open Sans", Arial, Verdana, sans-serif;
+  font-size: 14px;
+  min-width: 1050px;
+}
+
+/* line 14, sass/style.sass */
+.clear {
+  clear: both;
+  width: 100%;
+  height: 1px;
+  display: block;
+}
+
+/* line 20, sass/style.sass */
+.container {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* line 27, sass/style.sass */
+.header {
+  overflow: hidden;
+  padding: 30px 0 0;
+}
+/* line 31, sass/style.sass */
+.header .mark {
+  float: left;
+}
+/* line 34, sass/style.sass */
+.header .nav {
+  float: right;
+}
+/* line 37, sass/style.sass */
+.header .nav-list {
+  margin: 68px 0 0;
+}
+/* line 40, sass/style.sass */
+.header .nav-item {
+  float: left;
+  margin: 0 0 0 25px;
+}
+/* line 44, sass/style.sass */
+.header .nav-link {
+  text-shadow: white 1px 1px 2px;
+  padding: 10px 0 5px;
+  display: inline-block;
+  color: #5c5c5b;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+}
+/* line 55, sass/style.sass */
+.header .nav-link.nav-link-selected, .header .nav-link:hover {
+  color: #dea42b;
+  border-bottom: 1px solid #dea42b;
+}
+
+/* line 60, sass/style.sass */
+.footer {
+  background: url(../imagens/bg-footer.png) top center no-repeat;
+  height: 239px;
+  padding-top: 100px;
+}
+/* line 65, sass/style.sass */
+.footer strong {
+  font-weight: bold;
+}
+/* line 68, sass/style.sass */
+.footer .footer-contact {
+  text-shadow: white 1px 1px 2px;
+  border-bottom: 1px solid #bababa;
+  padding: 30px 0;
+  color: #605a5e;
+  font-size: 13px;
+  font-family: Arial, Verdana, sans-serif;
+  line-height: 150%;
+}
+/* line 77, sass/style.sass */
+.footer .footer-copyright {
+  border-top: 1px solid #ededed;
+  padding: 30px 0;
+  font-family: Arial, Verdana, sans-serif;
+  color: #787878;
+  font-size: 12px;
+}
+/* line 84, sass/style.sass */
+.footer .footer-copyright a {
+  color: #787878;
+  text-decoration: none;
+}
+/* line 88, sass/style.sass */
+.footer .footer-copyright a:hover {
+  text-decoration: underline;
+}
+
+/* line 94, sass/style.sass */
+.highlight {
+  background: url(../imagens/bg-destaque.png) bottom center no-repeat;
+  height: 518px;
+  margin: 30px 0 0;
+}
+/* line 99, sass/style.sass */
+.highlight .container {
+  width: 1020px;
+}
+
+/* line 102, sass/style.sass */
+.intro-bar {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px 2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../imagens/bg-content.jpg);
+  margin: 0 0 20px;
+  padding: 45px;
+  overflow: hidden;
+  min-width: 1020px;
+}
+/* line 111, sass/style.sass */
+.intro-bar h2 {
+  text-shadow: white 1px 1px 2px;
+  font-size: 23px;
+  color: #555555;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 118, sass/style.sass */
+.intro-bar h3 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #dda32b;
+  margin: 8px 0 0;
+}
+/* line 124, sass/style.sass */
+.intro-bar p {
+  font-family: Arial, Verdana, sans-serif;
+  margin: 22px 0 0;
+  font-size: 13px;
+  line-height: 150%;
+}
+/* line 130, sass/style.sass */
+.intro-bar strong {
+  font-weight: bold;
+}
+/* line 133, sass/style.sass */
+.intro-bar .alliance-tour {
+  float: left;
+  width: 43%;
+}
+
+/* line 137, sass/style.sass */
+.useful-links {
+  float: right;
+  width: 48%;
+}
+
+/* line 141, sass/style.sass */
+.useful-links-list {
+  overflow: hidden;
+  margin: 15px 0 0;
+}
+
+/* line 145, sass/style.sass */
+.useful-links-item {
+  width: 50%;
+  float: left;
+}
+
+/* line 149, sass/style.sass */
+.useful-links-link {
+  font-family: Arial, Verdana, sans-serif;
+  color: #565154;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  display: block;
+  padding: 25px 0 25px 55px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid #c3c3c3;
+}
+/* line 161, sass/style.sass */
+.useful-links-link.useful-links-visto {
+  border-top: 0;
+  background: url(../imagens/ico-vistos.png) no-repeat left center;
+}
+/* line 165, sass/style.sass */
+.useful-links-link.useful-links-fuso {
+  border-top: 0;
+  background: url(../imagens/ico-fuso.png) no-repeat left center;
+}
+/* line 169, sass/style.sass */
+.useful-links-link.useful-links-passaportes {
+  background: url(../imagens/ico-passaportes.png) no-repeat left center;
+}
+/* line 172, sass/style.sass */
+.useful-links-link.useful-links-voo {
+  background: url(../imagens/ico-voo.png) no-repeat left center;
+}
+/* line 175, sass/style.sass */
+.useful-links-link.useful-links-tempo {
+  border-bottom: 0;
+  background: url(../imagens/ico-tempo.png) no-repeat left center;
+}
+/* line 179, sass/style.sass */
+.useful-links-link.useful-links-vacinas {
+  border-bottom: 0;
+  background: url(../imagens/ico-vacinas.png) no-repeat left center;
+}
+
+/* line 183, sass/style.sass */
+.chamadas {
+  overflow: hidden;
+  margin: 50px 0 20px;
+}
+
+/* line 188, sass/style.sass */
+.box-chamadas h2 {
+  text-shadow: white 1px 1px 2px;
+  font-size: 23px;
+  color: #555555;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 195, sass/style.sass */
+.box-chamadas h3 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #dda32b;
+  margin: 8px 0 0;
+}
+/* line 201, sass/style.sass */
+.box-chamadas p {
+  font-family: Arial, Verdana, sans-serif;
+  color: #605a5e;
+  line-height: 150%;
+}
+/* line 206, sass/style.sass */
+.box-chamadas p strong {
+  font-weight: bold;
+}
+/* line 209, sass/style.sass */
+.box-chamadas.trip {
+  width: 32%;
+  float: left;
+}
+/* line 213, sass/style.sass */
+.box-chamadas.trip a {
+  text-decoration: none;
+}
+/* line 216, sass/style.sass */
+.box-chamadas.trip img {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  border: 5px solid white;
+  margin: 20px 0;
+}
+/* line 221, sass/style.sass */
+.box-chamadas.news {
+  width: 32%;
+  float: left;
+  margin: 0 0 0 1%;
+}
+/* line 226, sass/style.sass */
+.box-chamadas.news form {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  border: 5px solid white;
+  margin: 20px 0;
+  background: #f4f4f4;
+  position: relative;
+  height: 206px;
+}
+/* line 234, sass/style.sass */
+.box-chamadas.news input[type=text] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  background: #f1ebdf;
+  border-bottom: 1px solid white;
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding: 29px 10px;
+  outline: none;
+  font-style: italic;
+}
+/* line 246, sass/style.sass */
+.box-chamadas.news input[type=text]:focus {
+  background: #e4ded3;
+}
+/* line 249, sass/style.sass */
+.box-chamadas.news .client-check {
+  float: left;
+  margin: 12px 0 0;
+  color: #565154;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+}
+/* line 257, sass/style.sass */
+.box-chamadas.news .client-check input[type=checkbox] {
+  float: left;
+  margin: 0 8px 0 0;
+}
+/* line 261, sass/style.sass */
+.box-chamadas.news .submit-form {
+  float: right;
+  margin: 15px 0 0;
+}
+/* line 265, sass/style.sass */
+.box-chamadas.news .feedbacks {
+  position: absolute;
+  font-size: 11px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  display: none;
+}
+/* line 276, sass/style.sass */
+.box-chamadas.news .feedbacks img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+/* line 280, sass/style.sass */
+.box-chamadas.news #msg-sucesso {
+  position: absolute;
+  left: 10px;
+  width: 250px;
+  display: inline-block;
+  color: #4a7619;
+  display: none;
+  top: 50%;
+  margin-top: -20px;
+}
+/* line 290, sass/style.sass */
+.box-chamadas.news #msg-erro {
+  position: absolute;
+  left: 10px;
+  width: 250px;
+  display: inline-block;
+  color: #7b6a17;
+  display: none;
+  top: 50%;
+  margin-top: -20px;
+}
+/* line 300, sass/style.sass */
+.box-chamadas.news #ajaxloader {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  width: 250px;
+  display: none;
+  top: 50%;
+  margin-top: -20px;
+}
+/* line 310, sass/style.sass */
+.box-chamadas.facebook {
+  width: 32%;
+  float: right;
+}
+/* line 314, sass/style.sass */
+.box-chamadas.facebook .iframe-wrapper {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  border: 5px solid white;
+  margin: 20px 0;
+  background: white;
+  position: relative;
+}
+/* line 321, sass/style.sass */
+.box-chamadas.facebook .iframe-wrapper:after {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #aaaaaa;
+  margin-top: -2px;
+}
+
+/* line 330, sass/style.sass */
+.nossos-servicos .header {
+  background: url(../imagens/bg-header.png) no-repeat bottom;
+  padding-bottom: 190px;
+}
+/* line 334, sass/style.sass */
+.nossos-servicos .content {
+  overflow: hidden;
+}
+/* line 337, sass/style.sass */
+.nossos-servicos .main-content {
+  width: 620px;
+  float: left;
+  margin: 10px 0 0;
+}
+/* line 342, sass/style.sass */
+.nossos-servicos .main-content p {
+  margin: 22px 0;
+  line-height: 150%;
+  font-size: 13px;
+  font-family: Arial, Verdana, sans-serif;
+}
+/* line 348, sass/style.sass */
+.nossos-servicos .main-content h2 {
+  text-shadow: white 1px 1px 2px;
+  font-size: 23px;
+  color: #555555;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+/* line 356, sass/style.sass */
+.nossos-servicos .main-content h3 {
+  text-shadow: white 1px 1px 2px;
+  margin: 8px 0 0;
+  padding: 0;
+  font-size: 15px;
+  color: #dda32b;
+}
+/* line 363, sass/style.sass */
+.nossos-servicos .main-content h4 {
+  text-shadow: white 1px 1px 2px;
+  border-top: 1px solid white;
+  display: block;
+  margin: 0 0 15px;
+  padding: 40px 0 0;
+  font-size: 13px;
+  color: #dda32b;
+}
+/* line 372, sass/style.sass */
+.nossos-servicos .main-content h4.first {
+  border-top: 0;
+  padding: 0;
+}
+/* line 376, sass/style.sass */
+.nossos-servicos .main-content ul {
+  margin: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #dedede;
+  padding: 0 0 10px;
+}
+/* line 382, sass/style.sass */
+.nossos-servicos .main-content ul.last {
+  border-bottom: 0;
+}
+/* line 385, sass/style.sass */
+.nossos-servicos .main-content ul li {
+  float: left;
+  margin: 5px 0;
+}
+
+/* line 389, sass/style.sass */
+.column {
+  float: right;
+  width: 292px;
+  margin: 10px 0 0;
+}
+/* line 394, sass/style.sass */
+.column .box-chamadas {
+  width: 100%;
+}
+/* line 397, sass/style.sass */
+.column .box-chamadas.news {
+  margin: 50px 0;
+}
+/* line 400, sass/style.sass */
+.column .useful-links-item {
+  width: 100%;
+  float: none;
+}
+/* line 404, sass/style.sass */
+.column .useful-links-link {
+  padding: 15px 0 15px 55px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid #dedede;
+}
+/* line 409, sass/style.sass */
+.column .useful-links-link.useful-links-visto {
+  border-top: 0;
+}
+/* line 412, sass/style.sass */
+.column .useful-links-link.useful-links-vacinas {
+  border-bottom: 0;
+}
+
+/* line 419, sass/style.sass */
+.dicas .dicas-intro {
+  background: url(../imagens/viagens.png) no-repeat right top;
+  padding: 30px 360px 0 0;
+  margin-top: -30px;
+  min-height: 330px;
+}
+/* line 425, sass/style.sass */
+.dicas .header {
+  background: url(../imagens/bg-header.png) no-repeat bottom;
+  padding-bottom: 190px;
+}
+/* line 431, sass/style.sass */
+.dicas .content h2 {
+  text-shadow: white 1px 1px 2px;
+  font-size: 23px;
+  color: #555555;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+/* line 439, sass/style.sass */
+.dicas .content h3 {
+  text-shadow: white 1px 1px 2px;
+  margin: 8px 0 0;
+  padding: 0;
+  font-size: 15px;
+  color: #dda32b;
+}
+/* line 446, sass/style.sass */
+.dicas .content p {
+  margin: 22px 0;
+  line-height: 150%;
+  font-size: 13px;
+  font-family: Arial, Verdana, sans-serif;
+}
+/* line 452, sass/style.sass */
+.dicas .content strong {
+  font-weight: bold;
+}
+/* line 455, sass/style.sass */
+.dicas .tabs {
+  text-align: center;
+  margin: 20px 0;
+}
+/* line 459, sass/style.sass */
+.dicas .tab-item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  width: 300px;
+  border: 5px solid white;
+  background: #f4f4f4 url(../imagens/submit-news.gif) no-repeat center right;
+  color: #dda32b;
+  font-size: 15px;
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  height: 85px;
+  display: inline-block;
+}
+/* line 473, sass/style.sass */
+.dicas .tab-item.tab-selected {
+  background-color: #dda32b;
+  background-image: url(../imagens/ico-fechar.gif);
+}
+/* line 477, sass/style.sass */
+.dicas .tab-item.tab-selected .tab-link {
+  color: white;
+}
+/* line 480, sass/style.sass */
+.dicas .tab-item.tab-selected .tab-link.tab-1 {
+  background: url(../imagens/dicas/tab-1-1.png) no-repeat 10px 50%;
+}
+/* line 483, sass/style.sass */
+.dicas .tab-item.tab-selected .tab-link.tab-2 {
+  background: url(../imagens/dicas/tab-2-1.png) no-repeat 10px 50%;
+}
+/* line 486, sass/style.sass */
+.dicas .tab-item.tab-selected .tab-link.tab-3 {
+  background: url(../imagens/dicas/tab-3-1.png) no-repeat 10px 50%;
+}
+/* line 489, sass/style.sass */
+.dicas .tab-item.tab-selected .tab-link.tab-4 {
+  background: url(../imagens/dicas/tab-4-1.png) no-repeat 10px 50%;
+}
+/* line 492, sass/style.sass */
+.dicas .tab-item.tab-selected .tab-link.tab-5 {
+  background: url(../imagens/dicas/tab-5-1.png) no-repeat 10px 50%;
+}
+/* line 495, sass/style.sass */
+.dicas .tab-item.tab-selected .tab-link.tab-6 {
+  background: url(../imagens/dicas/tab-6-1.png) no-repeat 10px 50%;
+}
+/* line 498, sass/style.sass */
+.dicas .tab-item.tab-selected .tab-link.tab-7 {
+  background: url(../imagens/dicas/tab-7-1.png) no-repeat 10px 50%;
+}
+/* line 501, sass/style.sass */
+.dicas .tab-item.tab-selected .tab-link.tab-8 {
+  background: url(../imagens/dicas/tab-8-1.png) no-repeat 10px 50%;
+}
+/* line 504, sass/style.sass */
+.dicas .tab-item.tab-selected .tab-link.tab-9 {
+  background: url(../imagens/dicas/tab-9-1.png) no-repeat 10px 50%;
+}
+/* line 507, sass/style.sass */
+.dicas .tab-item.tab-item-center {
+  margin: 0 36px;
+}
+/* line 510, sass/style.sass */
+.dicas .tab-link {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 70px 0 70px;
+  width: 100%;
+  width: 300px;
+  height: 75px;
+  line-height: 140%;
+  color: #565154;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+}
+/* line 525, sass/style.sass */
+.dicas .tab-link.tab-1 {
+  background: url(../imagens/dicas/tab-1.png) no-repeat 10px 50%;
+}
+/* line 528, sass/style.sass */
+.dicas .tab-link.tab-2 {
+  background: url(../imagens/dicas/tab-2.png) no-repeat 10px 50%;
+}
+/* line 531, sass/style.sass */
+.dicas .tab-link.tab-3 {
+  background: url(../imagens/dicas/tab-3.png) no-repeat 10px 50%;
+}
+/* line 534, sass/style.sass */
+.dicas .tab-link.tab-4 {
+  background: url(../imagens/dicas/tab-4.png) no-repeat 10px 50%;
+}
+/* line 537, sass/style.sass */
+.dicas .tab-link.tab-5 {
+  background: url(../imagens/dicas/tab-5.png) no-repeat 10px 50%;
+}
+/* line 540, sass/style.sass */
+.dicas .tab-link.tab-6 {
+  background: url(../imagens/dicas/tab-6.png) no-repeat 10px 50%;
+}
+/* line 543, sass/style.sass */
+.dicas .tab-link.tab-7 {
+  background: url(../imagens/dicas/tab-7.png) no-repeat 10px 50%;
+}
+/* line 546, sass/style.sass */
+.dicas .tab-link.tab-8 {
+  background: url(../imagens/dicas/tab-8.png) no-repeat 10px 50%;
+}
+/* line 549, sass/style.sass */
+.dicas .tab-link.tab-9 {
+  background: url(../imagens/dicas/tab-9.png) no-repeat 10px 50%;
+}
+/* line 552, sass/style.sass */
+.dicas .tab-content {
+  border: 1px solid #e5e5e5;
+  padding: 10px 20px;
+  background: white;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+}
+/* line 559, sass/style.sass */
+.dicas .tab-content li {
+  line-height: 140%;
+}
+/* line 563, sass/style.sass */
+.dicas .tab-content > ul > li {
+  margin: 10px 0;
+  border-top: 1px solid #f7e9cd;
+  padding: 10px 0 0;
+}
+/* line 568, sass/style.sass */
+.dicas .tab-content > ul > li:first-child {
+  padding: 0;
+  border-top: 0;
+}
+/* line 572, sass/style.sass */
+.dicas .tab-content > ul > li:before {
+  content: "• ";
+  color: #dda32b;
+}
+/* line 576, sass/style.sass */
+.dicas .tab-content > ul ul {
+  margin: 0 0 20px 0;
+}
+/* line 579, sass/style.sass */
+.dicas .tab-content > ul ul li {
+  margin: 10px 0 10px 10px;
+}
+/* line 582, sass/style.sass */
+.dicas .tab-content > ul ul li:before {
+  content: "- ";
+}
+
+/* line 591, sass/style.sass */
+.seu-roteiro .header {
+  background: url(../imagens/bg-header.png) no-repeat bottom;
+  padding-bottom: 190px;
+}
+/* line 595, sass/style.sass */
+.seu-roteiro .content {
+  margin-top: -20px;
+}
+/* line 599, sass/style.sass */
+.seu-roteiro .main-content h2 {
+  text-shadow: white 1px 1px 2px;
+  font-size: 23px;
+  color: #555555;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+/* line 609, sass/style.sass */
+.seu-roteiro .main-content h3 {
+  text-shadow: white 1px 1px 2px;
+  margin: 8px 0 0;
+  padding: 0;
+  font-size: 15px;
+  color: #555555;
+  display: block;
+  text-align: center;
+}
+/* line 619, sass/style.sass */
+.seu-roteiro .main-content form .subtitle {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: #555555;
+  padding: 37px 0 20px;
+  font-size: 16px;
+}
+/* line 627, sass/style.sass */
+.seu-roteiro .main-content form fieldset {
+  position: relative;
+  margin: 50px 0 30px;
+  padding-bottom: 40px;
+  background: url(../imagens/linha.gif) repeat-x 0 17px;
+}
+/* line 633, sass/style.sass */
+.seu-roteiro .main-content form fieldset#step3 {
+  margin-top: 10px;
+}
+/* line 636, sass/style.sass */
+.seu-roteiro .main-content form legend {
+  text-shadow: white 1px 1px 2px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  padding: 5px;
+  background: #f0f0f0;
+  font-size: 23px;
+  color: #dda32b;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+  width: 140px;
+  margin-left: -70px;
+  text-align: center;
+  display: inline-block;
+}
+/* line 653, sass/style.sass */
+.seu-roteiro .main-content form .check-form {
+  color: #7fb625;
+  font-size: 17px;
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+/* line 660, sass/style.sass */
+.seu-roteiro .main-content form .destination {
+  color: #19a3ca;
+  font-size: 17px;
+  display: block;
+  text-align: center;
+  margin: 20px 0 40px;
+}
+/* line 667, sass/style.sass */
+.seu-roteiro .main-content form .submit-form {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 40px auto 0;
+  width: 215px;
+  border: 5px solid white;
+  background: #f4f4f4 url(../imagens/submit-news.gif) no-repeat center right;
+  color: #dda32b;
+  font-size: 15px;
+  display: block;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+/* line 679, sass/style.sass */
+.seu-roteiro .main-content form .next-step {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  width: 185px;
+  border: 5px solid white;
+  background: #f4f4f4 url(../imagens/submit-news.gif) no-repeat center right;
+  color: #dda32b;
+  font-size: 15px;
+  display: block;
+  padding: 25px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -92px;
+  bottom: -40px;
+}
+/* line 696, sass/style.sass */
+.seu-roteiro .main-content form label {
+  display: block;
+  margin: 0 0 3px;
+  font-size: 12px;
+  font-family: Arial, verdana, sans-serif;
+}
+/* line 702, sass/style.sass */
+.seu-roteiro .main-content form input[type=text] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f5f5f5));
+  background-image: -webkit-linear-gradient(#ffffff, #f5f5f5);
+  background-image: -moz-linear-gradient(#ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(#ffffff, #f5f5f5);
+  background-image: linear-gradient(#ffffff, #f5f5f5);
+  margin: 0 0 20px;
+  padding: 5px;
+  font-size: 13px;
+  width: 100%;
+  font-family: Arial, verdana, sans-serif;
+}
+/* line 712, sass/style.sass */
+.seu-roteiro .main-content form textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f5f5f5));
+  background-image: -webkit-linear-gradient(#ffffff, #f5f5f5);
+  background-image: -moz-linear-gradient(#ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(#ffffff, #f5f5f5);
+  background-image: linear-gradient(#ffffff, #f5f5f5);
+  margin: 0 0 20px;
+  padding: 5px;
+  font-size: 13px;
+  width: 100%;
+  font-family: Arial, verdana, sans-serif;
+  resize: none;
+  height: 91px;
+  z-index: 1;
+  position: relative;
+}
+/* line 726, sass/style.sass */
+.seu-roteiro .main-content form .form-column {
+  width: 30%;
+  float: left;
+}
+/* line 730, sass/style.sass */
+.seu-roteiro .main-content form .form-column.form-column-center {
+  margin: 0 5%;
+}
+/* line 734, sass/style.sass */
+.seu-roteiro .main-content form .form-line.form-line-options {
+  padding: 14px 0 0;
+}
+/* line 737, sass/style.sass */
+.seu-roteiro .main-content form .form-line.form-line-options label {
+  margin: 0 0 5px;
+}
+
+/* line 745, sass/style.sass */
+.fale-conosco .header {
+  background: url(../imagens/bg-header.png) no-repeat bottom;
+  padding-bottom: 190px;
+}
+/* line 749, sass/style.sass */
+.fale-conosco h2 {
+  text-shadow: white 1px 1px 2px;
+  font-size: 23px;
+  color: #555555;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+/* line 757, sass/style.sass */
+.fale-conosco h3 {
+  text-shadow: white 1px 1px 2px;
+  margin: 8px 0 0;
+  padding: 0;
+  font-size: 15px;
+  color: #dda32b;
+}
+/* line 765, sass/style.sass */
+.fale-conosco .googlemaps iframe {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  border: 5px solid white;
+  margin: 30px 0;
+}
+/* line 770, sass/style.sass */
+.fale-conosco .content {
+  overflow: hidden;
+}
+/* line 773, sass/style.sass */
+.fale-conosco .main-content {
+  width: 620px;
+  float: left;
+  margin: 10px 0 0;
+  padding: 0 60px 0 0;
+}
+/* line 779, sass/style.sass */
+.fale-conosco .main-content form {
+  margin: 20px 0;
+}
+/* line 782, sass/style.sass */
+.fale-conosco .main-content label {
+  display: block;
+  margin: 0 0 3px;
+  font-size: 12px;
+  font-family: Arial, verdana, sans-serif;
+}
+/* line 788, sass/style.sass */
+.fale-conosco .main-content input[type=text] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f5f5f5));
+  background-image: -webkit-linear-gradient(#ffffff, #f5f5f5);
+  background-image: -moz-linear-gradient(#ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(#ffffff, #f5f5f5);
+  background-image: linear-gradient(#ffffff, #f5f5f5);
+  margin: 0 0 20px;
+  padding: 5px;
+  font-size: 13px;
+  width: 100%;
+  font-family: Arial, verdana, sans-serif;
+  font-style: italic;
+}
+/* line 799, sass/style.sass */
+.fale-conosco .main-content textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f5f5f5));
+  background-image: -webkit-linear-gradient(#ffffff, #f5f5f5);
+  background-image: -moz-linear-gradient(#ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(#ffffff, #f5f5f5);
+  background-image: linear-gradient(#ffffff, #f5f5f5);
+  margin: 0 0 20px;
+  padding: 5px;
+  font-size: 13px;
+  width: 100%;
+  font-family: Arial, verdana, sans-serif;
+  resize: none;
+  height: 140px;
+  z-index: 1;
+  position: relative;
+  font-style: italic;
+}
+/* line 814, sass/style.sass */
+.fale-conosco .main-content .submit-form {
+  float: right;
+  margin: -60px 1px 0;
+  z-index: 99;
+  position: relative;
+}
+/* line 820, sass/style.sass */
+.fale-conosco .main-content .feedbacks {
+  position: relative;
+  font-size: 11px;
+  height: 20px;
+}
+/* line 826, sass/style.sass */
+.fale-conosco .main-content .feedbacks img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+/* line 830, sass/style.sass */
+.fale-conosco .main-content #msg-sucesso {
+  position: absolute;
+  left: 10px;
+  width: 250px;
+  display: inline-block;
+  color: #4a7619;
+  display: none;
+  top: 12px;
+}
+/* line 839, sass/style.sass */
+.fale-conosco .main-content #msg-erro {
+  position: absolute;
+  left: 10px;
+  width: 250px;
+  display: inline-block;
+  color: #7b6a17;
+  display: none;
+  top: 12px;
+}
+/* line 848, sass/style.sass */
+.fale-conosco .main-content #ajaxloader {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  width: 250px;
+  display: none;
+  top: 12px;
+}
+/* line 856, sass/style.sass */
+.fale-conosco .other-contacts {
+  margin: 5px 0 0;
+  color: #322f31;
+  font-size: 12px;
+  font-family: Arial, verdana, sans-serif;
+  line-height: 150%;
+}
+/* line 863, sass/style.sass */
+.fale-conosco .other-contacts li {
+  padding: 15px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid #dedede;
+}
+/* line 868, sass/style.sass */
+.fale-conosco .other-contacts li.end {
+  border-top: 0;
+}
+/* line 871, sass/style.sass */
+.fale-conosco .other-contacts li.face {
+  border-bottom: 0;
+}
+/* line 874, sass/style.sass */
+.fale-conosco .other-contacts strong {
+  font-weight: bold;
+}
