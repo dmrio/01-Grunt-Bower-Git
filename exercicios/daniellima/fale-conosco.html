@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Fale conosco - Alliance Tour</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/style.css" />
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript">
+
+		//Formulário de contato
+
+		function inicia_ajax(){
+		    if (window.XMLHttpRequest) //Mozilla, Safari..
+		        ajax = new XMLHttpRequest();
+		    else if (window.ActiveXObject) //IE
+		    {
+		        ajax = new ActiveXObject("Msxml2.XMLHTTP");
+		        if (!ajax)
+		            ajax = new ActiveXObject ("Microsoft.XMLHTTP")
+		    }
+		    else
+		        alert ("Seu navegador não suporta ajax.");
+
+		    return ajax;
+		}
+
+		function envia_mensagem(){
+
+			$('#msg-sucesso, #msg-erro, #ajaxloader').hide();
+		    $("#ajaxloader").fadeIn(); //mostrando o gif, dizendo q a pagina esta sendo processada
+
+		    ajax = inicia_ajax();
+		    if(ajax){
+		        ajax.onreadystatechange = function(){
+		            if(ajax.readyState == 4){
+		                if(ajax.status == 200){
+		                    //alert (ajax.responseText);
+		                    $("#ajaxloader").fadeOut('fast', function() {
+			                    if(ajax.responseText=="ok") {
+			                        $("#msg-sucesso").fadeIn('fast');
+			                        $('#nome, #email, #tel, #mensagem, #assunto').delay(1000).val('');
+			                        $("#msg-sucesso").delay(25000).fadeOut();
+			                    }
+			                    else
+			                        $("#msg-erro").fadeIn();
+		                    });
+		                }
+		                else
+		                    alert(ajax.statusText);
+		            }
+		        }
+
+		        var dados="asd";
+
+		        ajax.open("GET", "envia_mensagem.php?nome="+document.contato.nome.value+"&tel="+document.contato.tel.value+"&assunto="+document.contato.assunto.value+"&email="+document.contato.email.value+"&mensagem="+document.contato.mensagem.value, true);
+		        ajax.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		        ajax.send(dados);
+		    }
+		}
+
+	</script>
+
+</head>
+<body class="fale-conosco">
+	<header class="header">
+		<div class="container">
+			<h1 class="mark">
+				<a href="index.html"><img src="imagens/marca-alliance-tour.png" alt="Alliance Tour - Agência de Viagens e Turismo" /></a>
+			</h1>
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a class="nav-link" href="index.html">Página inicial</a></li>
+					<li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+					<li class="nav-item"><a class="nav-link" href="dicas.html">Dicas de viagem</a></li>
+					<li class="nav-item"><a class="nav-link" href="seu-roteiro.html">Monte seu roteiro</a></li>
+					<li class="nav-item"><a class="nav-link nav-link-selected" href="fale-conosco.html">Fale conosco</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="content">
+		<div class="container">
+			<div class="googlemaps">
+				<h2>Nossa localização</h2>
+				<h3>Centro da cidade maravilhosa, Rio de Janeiro, Brasil!</h3>
+				<iframe width="970" height="290" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=R.+da+Quitanda,+62+-+Centro,+Rio+de+Janeiro+-+RJ,+Brasil&amp;aq=0&amp;oq=rua+da+quitanda&amp;sll=37.0625,-95.677068&amp;sspn=37.735377,86.044922&amp;ie=UTF8&amp;hq=&amp;hnear=R.+da+Quitanda,+62+-+Centro,+Rio+de+Janeiro,+20091-005,+Rep%C3%BAblica+Federativa+do+Brasil&amp;t=m&amp;ll=-22.903613,-43.175282&amp;spn=0.005732,0.021222&amp;z=16&amp;output=embed"></iframe>
+			</div>
+			<div class="main-content">
+				<h2>Entre em contato</h2>
+				<h3>Informações, dúvidas, solicitação de cotação, entre outros, escreva-nos</h3>
+				<form id="form" name="contato" method="post">
+					<div class="form-line">
+						<input type="text" name="nome" id="nome" placeholder="Nome" />							
+					</div>
+					<div class="form-line">
+						<div class="form-col1">
+							<input type="text" name="email" id="email" placeholder="E-mail" />	
+						</div>
+						<div class="form-col2">
+							<input type="text" name="tel" id="tel" placeholder="DDD + Telefone" />
+						</div>
+					</div>
+					<div class="form-line">
+						<input type="text" name="assunto" id="assunto" placeholder="Assunto" />							
+					</div>
+					<div class="form-line">
+						<textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+						<a class="submit-form" href="javascript:envia_mensagem()"><img src="imagens/submit-news.gif" title="Enviar" alt="Enviar"></a>
+					</div>
+					<span class="feedbacks">
+						&nbsp;
+						<span id="ajaxloader"><img src="imagens/load-indicator.gif" alt="" width="20" height="20"> Enviando...</span>
+						<span id="msg-sucesso"><img src="imagens/action_check.png" alt="" width="20" height="20"> Mensagem enviada com sucesso!</span>
+						<span id="msg-erro"><img src="imagens/error.png" alt="" width="20" height="20"> Falha ao enviar a mensagem.</span>
+					</span>
+				</form>
+			</div>
+			<div class="column">
+				<h2>Outros Contatos</h2>
+				<h3>Atendimento com horário agendado</h3>
+				<ul class="other-contacts">
+					<li class="end">Rua da Quitanda, 62 - Sala 1001 <br />Rio de Janeiro - RJ - Brasil - CEP: 20011-030</li>
+					<li><strong>Telefone:</strong> +55 (21) 2232-8114</li>
+					<li><strong>E-mail:</strong> <a href="mailto:contato@alliancetour.com.br">contato@alliancetour.com.br</a></li>
+					<li class="face"><iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Falliancetour&amp;width=265&amp;height=75&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=1375277902687723" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:265px; height:75px;" allowTransparency="true"></iframe></li>
+				</ul>
+			</div>			
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<img class="footer-embratur" src="imagens/marca-embratur.png" alt="Embratur" />
+			<div class="footer-contact">
+				<p>Telefone: (21) 2232-8114 | Rua da Quitanda, 62 sala 1001<br />
+				Centro, Rio de Janeiro, Brasil | CEP: 20011-030</p>
+			</div>
+			<div class="footer-copyright">
+				<p>Copyright © Alliancetour.com.br | Desenvolvido por <a href="http://www.marianahilario.com.br">Mariana Hilario</a></p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
