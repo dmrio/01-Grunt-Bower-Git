@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Monte seu roteiro - Alliance Tour</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/style.css" />
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.scrollto.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function(){	
+			var controlForm = function () {
+				$('#step2, #step3').hide();
+
+				$('#toStep2').on('click', function(e) {
+					var checkedRegion = false;
+					var selectedRegions = '';
+					var count = 0;
+					var count2 = 0;
+					var _this = $(this);
+
+					$('.region').each(function(){
+						if ($(this).is(':checked')) {
+							count++;
+
+							if (count == 1 || count == 8)
+								selectedRegions += $(this).parent().text(); 
+							else
+								selectedRegions += ', ' + $(this).parent().text(); 
+
+							checkedRegion = true;							
+						}
+						$(this).on('change', function() {
+							selectedRegions = '';
+							count2 = 0;
+							if ($('#step2').is(':visible')){
+								$('.region').each(function(){
+									if ($(this).is(':checked')) {
+										count2++;
+
+										if (count2 == 1 || count2 == 8)
+											selectedRegions += $(this).parent().text(); 
+										else
+											selectedRegions += ', ' + $(this).parent().text();
+
+										$('#selectedDestination').text(selectedRegions);
+									}
+								});
+							}
+							selectedRegions = '';
+						});
+					});
+
+					if (checkedRegion) {
+						$('#selectedDestination').text(selectedRegions);
+						_this.fadeOut('fast', function (){ 
+							$('#step2').fadeIn('fast', function() {
+								$('body').scrollTo('#step2', {duration:'slow'});
+							});
+						});
+					}
+					else 
+						alert('Selecione uma região para prosseguir!');
+
+					checkedRegion = false;
+					e.preventDefault();
+				});	
+
+				$('#toStep3').on('click', function(e) {
+					var _this = $(this);
+					
+					_this.fadeOut('fast', function (){ 
+						$('#step3').fadeIn('fast', function() {
+							$('body').scrollTo('#step3', {duration:'slow'});
+						});
+					});
+					e.preventDefault();
+				});			
+			}
+			controlForm();
+		});
+	</script>
+
+</head>
+<body class="seu-roteiro">
+	<header class="header">
+		<div class="container">
+			<h1 class="mark">
+				<a href="index.html"><img src="imagens/marca-alliance-tour.png" alt="Alliance Tour - Agência de Viagens e Turismo" /></a>
+			</h1>
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a class="nav-link" href="index.html">Página inicial</a></li>
+					<li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+					<li class="nav-item"><a class="nav-link" href="dicas.html">Dicas de viagem</a></li>
+					<li class="nav-item"><a class="nav-link nav-link-selected" href="seu-roteiro.html">Monte seu roteiro</a></li>
+					<li class="nav-item"><a class="nav-link" href="fale-conosco.html">Fale conosco</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="content">
+		<div class="container">
+			<div class="main-content">
+				<h2>Monte seu roteiro</h2>
+				<h3>Em breve você poderá montar seu roteiro personalizado!</h3>
+				<!--<h3>Em apenas 3 passos, você organiza sua viagem!</h3>
+				<form>
+					<fieldset>
+						<legend class="title">1º passo</legend>
+						<span class="subtitle">Escolha seu destino</span>
+						<div class="hidden-inputs">
+							<label><input class="region" type="checkbox" name="region" id="americaNorte" /> América do Norte</label>
+							<label><input class="region" type="checkbox" name="region" id="americaCentral" /> América Central</label>
+							<label><input class="region" type="checkbox" name="region" id="americaSul" /> América do Sul</label>
+							<label><input class="region" type="checkbox" name="region" id="europa" /> Europa</label>
+							<label><input class="region" type="checkbox" name="region" id="africa" /> África</label>
+							<label><input class="region" type="checkbox" name="region" id="asia" /> Ásia</label>
+							<label><input class="region" type="checkbox" name="region" id="oceania" /> Oceania</label>
+						</div>
+						<a id="toStep2" class="next-step" href="#step2">Próximo passo</a>
+					</fieldset>
+					<fieldset id="step2">
+						<legend class="title">2º passo</legend>
+						<span class="subtitle">Preencha o formulário</span>
+						<span class="destination">Destino(s) selecionado(s): <span id="selectedDestination"></span></span>
+						<div class="form-column">
+							<div class="form-line">
+								<label for="nome">Seu nome</label>
+								<input type="text" id="nome" name="nome" placeholder="Escreva aqui" />							
+							</div>
+							<div class="form-line">
+								<label for="email">Seu e-mail</label>
+								<input type="text" id="email" name="email" placeholder="exemplo@email.com" />			
+							</div>
+							<div class="form-line">
+								<label for="phone">Seu telefone</label>
+								<input type="text" id="phone" name="phone" placeholder="(DDD) + Telefone" />					
+							</div>
+							<div class="form-line form-line-columns">
+								<div class="form-column">
+									<label for="numAdultos">Nº de adultos</label>
+									<input type="text" id="numAdultos" name="numAdultos" placeholder="+ 12 anos" />
+								</div>
+								<div class="form-column form-column-center">
+									<label for="numCriancas">Nº de crianças</label>
+									<input type="text" id="numCriancas" name="numCriancas" placeholder="2-11 anos" />
+								</div>
+								<div class="form-column">
+									<label for="numBebes">Nº de bebês</label>
+									<input type="text" id="numBebes" name="numBebes" placeholder="0-2 anos" />
+								</div>
+							</div>
+							<a id="toStep3" class="next-step" href="#step3">Próximo passo</a>
+						</div>
+						<div class="form-column form-column-center">
+							<div class="form-line">
+								<label for="data1">Data da ida</label>
+								<input type="text" id="data1" name="data1" placeholder="Selecione" />							
+							</div>
+							<div class="form-line">
+								<label for="local1">Local de origem</label>
+								<input type="text" id="local1" name="local1" placeholder="Escreva aqui" />
+							</div>
+							<div class="form-line">
+								<label for="mensagem">Observações</label>
+								<textarea name="obs" id="obs" placeholder="Escreva aqui"></textarea>							
+							</div>
+						</div>
+						<div class="form-column">
+							<div class="form-line">
+								<label for="data2">Data da volta</label>
+								<input type="text" id="data2" name="data2" placeholder="Selecione" />
+							</div>
+							<div class="form-line">
+								<label for="local2">Cidade(s) do destino</label>
+								<input type="text" id="local2" name="local2" placeholder="1+ separar por vírgula" />			
+							</div>
+							<div class="form-line form-line-options">
+								<label><input type="checkbox" name="hotel" id="hotel" /> Preciso de hotel</label>
+								<label><input type="checkbox" name="aero" id="aero" /> Preciso de aéreo</label>
+								<label><input type="checkbox" name="transfer" id="transfer" /> Preciso de transfer</label>
+								<label><input type="checkbox" name="tickets" id="tickets" /> Preciso de tickets</label>
+							</div>
+						</div>
+						<span class="clear"></span>
+					</fieldset>
+					<fieldset id="step3">
+						<legend class="title">3º passo</legend>
+						<span class="subtitle">Encaminhar à Alliance Tour</span>
+						<p class="check-form">Confira seus dados e clique no botão abaixo</p>
+						<a class="submit-form" href="#">Enviar meu roteiro</a>
+					</fieldset>
+				</form>-->
+			</div>		
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<img class="footer-embratur" src="imagens/marca-embratur.png" alt="Embratur" />
+			<div class="footer-contact">
+				<p>Telefone: (21) 2232-8114 | Rua da Quitanda, 62 sala 1001<br />
+				Centro, Rio de Janeiro, Brasil | CEP: 20011-030</p>			
+			</div>
+			<div class="footer-copyright">
+				<p>Copyright © Alliancetour.com.br | Desenvolvido por <a href="http://www.marianahilario.com.br">Mariana Hilario</a></p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

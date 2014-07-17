@@ -1,0 +1,210 @@
+<!doctype html> 
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Página inicial - Alliance Tour</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/style.css" />
+	<link rel="stylesheet" href="styles/lofslider.css" />
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.easing.js"></script>
+	<script type="text/javascript" src="scripts/jquery.lofslider.js"></script>
+	<script type="text/javascript">
+	 	$(document).ready( function(){	
+			var buttons = { previous:$('#jslidernews3 .button-previous') ,
+							next:$('#jslidernews3 .button-next') };
+	  
+			var _complete = function(slider, index){ 
+				$('#jslidernews3 .slider-description').animate({height:0});
+				slider.find(".slider-description").animate({height:100}) 
+			};							;
+		 	$('#jslidernews3').lofJSidernews({
+		 		interval 		: 4000,
+				direction		: 'opacity',	
+			 	easing			: 'swing',
+				duration		: 1200,
+				mainHeight		: 518,
+				auto		 	: true,
+				mainWidth		: 1020,
+				buttons			: buttons,
+				onComplete		: _complete 
+			});	
+
+			$("#client").on("change", function() {
+				if ($(this).attr("value") == "nao")
+					$(this).attr("value", "sim");
+				else
+					$(this).attr("value", "nao");
+			});
+		});
+
+
+		//Formulário de contato
+		function inicia_ajax(){
+		    if (window.XMLHttpRequest) //Mozilla, Safari..
+		        ajax = new XMLHttpRequest();
+		    else if (window.ActiveXObject) //IE
+		    {
+		        ajax = new ActiveXObject("Msxml2.XMLHTTP");
+		        if (!ajax)
+		            ajax = new ActiveXObject ("Microsoft.XMLHTTP")
+		    }
+		    else
+		        alert ("Seu navegador não suporta ajax.");
+
+		    return ajax;
+		}
+
+		function envia_mensagem(){
+
+			$('#msg-sucesso, #msg-erro, #ajaxloader').hide();
+			$(".feedbacks").fadeIn('fast');
+		    $("#ajaxloader").fadeIn(); //mostrando o gif, dizendo q a pagina esta sendo processada
+
+		    ajax = inicia_ajax();
+		    if(ajax){
+		        ajax.onreadystatechange = function(){
+		            if(ajax.readyState == 4){
+		                if(ajax.status == 200){
+		                    //alert (ajax.responseText);
+		                    $("#ajaxloader").fadeOut('fast', function() {
+			                    if(ajax.responseText=="ok") {
+			                        $("#msg-sucesso").fadeIn('fast');
+			                        $('#nome, #email, #tel, #mensagem, #assunto').delay(1000).val('');
+			                        $("#msg-sucesso").delay(15000).fadeOut();
+			                        $(".feedbacks").delay(15000).fadeOut();
+			                    }
+			                    else
+			                        $("#msg-erro").fadeIn();
+			                        $("#msg-erro").delay(25000).fadeOut();
+			                        $(".feedbacks").delay(25000).fadeOut();
+		                    });
+		                }
+		                else
+		                    alert(ajax.statusText);
+		            }
+		        }
+
+		        var dados="asd";
+
+		        ajax.open("GET", "cadastra_mailing.php?nome="+document.contato.nome.value+"&tel="+"&cliente="+document.contato.client.value+"&email="+document.contato.email.value, true);
+		        ajax.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		        ajax.send(dados);
+		    }
+		}
+
+	</script>
+
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<h1 class="mark">
+				<a href="index.html"><img src="imagens/marca-alliance-tour.png" alt="Alliance Tour - Agência de Viagens e Turismo" /></a>
+			</h1>
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a class="nav-link nav-link-selected" href="index.html">Página inicial</a></li>
+					<li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+					<li class="nav-item"><a class="nav-link" href="dicas.html">Dicas de viagem</a></li>
+					<li class="nav-item"><a class="nav-link" href="seu-roteiro.html">Monte seu roteiro</a></li>
+					<li class="nav-item"><a class="nav-link" href="fale-conosco.html">Fale conosco</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="content">
+		<div class="highlight">
+			<div class="container">
+				<div id="jslidernews3" class="lof-slidecontent" style="width:1020px;height:518px;">
+					<div class="preload">
+						<div></div>
+					</div>
+					<div  class="button-previous">Previous</div>
+				    <div class="main-slider-content" style="width:980px; height:340px;">
+		                <ul class="sliders-wrap-inner">
+							<li><img src="imagens/destaque-01.png" alt=""></li>
+							<li><img src="imagens/destaque-02.png" alt=""></li>
+							<li><img src="imagens/destaque-03.png" alt=""></li>
+							<li><img src="imagens/destaque-04.png" alt=""></li>
+							<li><img src="imagens/destaque-05.png" alt=""></li>
+				      	</ul>  	
+		            </div>				       
+				    <div class="button-next">Next</div>
+				 </div> 
+			</div>
+		</div>
+		<div class="intro-bar">
+			<div class="container">
+				<div class="alliance-tour">
+					<h2>Alliance Tour</h2>
+					<h3>Agência de Viagens e Turismo</h3>
+					<p>A Alliance Tour trabalha com uma equipe treinada e com experiência no mercado turístico, oferecendo um atendimento eficiente e de qualidade, além de ser altamente personalizado e focado nas necessidades e interesses de nossos clientes.</p>
+					<p>Em parceria com as maiores empresas de Turismo do mundo, oferecemos uma enorme gama de destinos e produtos turísticos.</p>
+					<p><strong>É só nos dizer seu sonho e nós o realizamos!</strong></p>
+				</div>	
+				<div class="box-chamadas useful-links">
+					<h2>Links úteis</h2>
+					<h3>Tudo que você precisa em um só lugar</h3>
+					<ul class="useful-links-list">
+						<li class="useful-links-item"><a target="_blank" class="useful-links-link useful-links-visto" href="http://www.visamundo.com.br/vistos/vistos_consulares.asp">Vistos consulares</a></li>
+						<li class="useful-links-item"><a target="_blank" class="useful-links-link useful-links-fuso" href="http://24timezones.com/current_world_time.php">Fuso horário</a></li>
+						<li class="useful-links-item"><a target="_blank" class="useful-links-link useful-links-passaportes" href="http://www.dpf.gov.br/servicos/passaporte/requerer-passaporte">Passaporte</a></li>
+						<li class="useful-links-item"><a target="_blank" class="useful-links-link useful-links-voo" href="http://www.infraero.gov.br/voos/index.aspx">Consulta de vôos</a></li>
+						<li class="useful-links-item"><a target="_blank" class="useful-links-link useful-links-tempo" href="http://www.cptec.inpe.br">Previsão do tempo</a></li>
+						<li class="useful-links-item"><a target="_blank" class="useful-links-link useful-links-vacinas" href="http://www.edbv.receita.fazenda.gov.br/edbv-viajante/pages/selecionarAcao/selecionarAcao.jsf">DECLARAÇÃO (e-BDV)</a></li>
+					</ul>
+				</div>			
+			</div>
+		</div>
+		<div class="chamadas">
+			<div class="container">
+				<div class="box-chamadas trip">
+					<h2>Sua viagem</h2>
+					<h3>Monte seu pacote agora!</h3>
+					<a href="seu-roteiro.html">
+					<img src="imagens/home-steps.jpg" alt=" ">
+					<p><strong>Em apenas 3 passos você pode montar o seu pacote personalizado. Saiba mais!</strong></p>
+					</a>
+				</div>
+				<div class="box-chamadas news">
+					<h2>E-news!</h2>
+					<h3>Cadastre-se e receba novidades!</h3>
+					<form id="form" name="contato" method="post">
+						<input type="text" name="nome" id="nome" placeholder="Digite aqui seu nome completo" />
+						<input type="text" name="email" id="email" placeholder="Digite aqui seu e-mail" />
+						<label class="client-check"><input type="checkbox" name="client" id="client" value="nao" /> Já sou cliente da Alliance Tour</label>
+						<a class="submit-form" href="javascript:envia_mensagem()"><img src="imagens/submit-news.gif" title="Cadastrar" alt="Cadastrar"></a>
+						<span class="feedbacks">
+							<span id="ajaxloader"><img src="imagens/load-indicator.gif" alt="" width="20" height="20"> Enviando...</span>
+							<span id="msg-sucesso"><img src="imagens/action_check.png" alt="" width="20" height="20"> Cadastrado com sucesso!</span>
+							<span id="msg-erro"><img src="imagens/error.png" alt="" width="20" height="20"> Falha ao cadastrar.</span>
+						</span>
+					</form>
+					<p><strong>Receba no seu e-mail as melhores ofertas e pacotes promocionais. Assine agora!</strong></p>
+				</div>
+				<div class="box-chamadas facebook">
+					<h2>Facebook</h2>
+					<h3>Curta nossa fanpage!</h3>
+					<div class="iframe-wrapper">
+						<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Falliancetour&width=292&height=258&colorscheme=light&show_faces=true&header=false&stream=false&show_border=true&appId=1375277902687723" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:304px; height:206px;" allowTransparency="true"></iframe>						
+					</div>
+					<p><strong>Encontre-nos no facebook! Acompanhe as notícias da Alliance Tour.</strong></p>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<img class="footer-embratur" src="imagens/marca-embratur.png" alt="Embratur" />
+			<div class="footer-contact">
+				<p>Telefone: (21) 2232-8114 | Rua da Quitanda, 62 sala 1001<br />
+				Centro, Rio de Janeiro, Brasil | CEP: 20011-030</p>
+			</div>
+			<div class="footer-copyright">
+				<p>Copyright © Alliancetour.com.br | Desenvolvido por <a href="http://www.marianahilario.com.br">Mariana Hilario</a></p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
