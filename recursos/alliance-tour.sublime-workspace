@@ -1,0 +1,1349 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"us",
+				"useful-links-vacinas"
+			],
+			[
+				"use",
+				"useful-links-visto"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"new",
+				"newVersionUrl"
+			],
+			[
+				"open",
+				"openExternalUrls"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"ne",
+				"newLatLong"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"plans",
+				"plansTable"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"sto",
+				"stopPropagation"
+			],
+			[
+				"long",
+				"longitude"
+			],
+			[
+				"find",
+				"findStore"
+			],
+			[
+				"menu",
+				"menuList"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"home",
+				"homeAds"
+			],
+			[
+				"ajax",
+				"ajaxShowcase"
+			],
+			[
+				"region",
+				"regionReturn"
+			],
+			[
+				"regi",
+				"regionReturn"
+			],
+			[
+				"regio",
+				"regions"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"s",
+				"scripts"
+			],
+			[
+				"ap",
+				"appendTo"
+			],
+			[
+				"lo",
+				"localizacao"
+			],
+			[
+				"list",
+				"ListIndicatorAccordion"
+			],
+			[
+				"add",
+				"executeAddCondition"
+			],
+			[
+				"tr",
+				"trigger"
+			],
+			[
+				"option",
+				"optionSelected"
+			],
+			[
+				"auto",
+				"autocompletesearch"
+			],
+			[
+				"btn",
+				"btn-expandir"
+			],
+			[
+				"ac",
+				"accordionHeader"
+			],
+			[
+				"remove",
+				"removeCondition"
+			],
+			[
+				"fi",
+				"fieldset"
+			],
+			[
+				"Cor",
+				"Corretora"
+			],
+			[
+				"Tit",
+				"title"
+			],
+			[
+				"bg-",
+				"bg-footer-color"
+			],
+			[
+				"box",
+				"box-base"
+			],
+			[
+				"cno",
+				"console"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"post_p",
+				"posts_per_page"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"li",
+				"listing"
+			],
+			[
+				"back",
+				"background	background-attachment: scroll/fixed"
+			],
+			[
+				"up",
+				"uppercase"
+			],
+			[
+				"middle",
+				"middle-box"
+			],
+			[
+				"al",
+				"alert"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "servicos.html",
+			"settings":
+			{
+				"buffer_size": 9082,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles/lofslider.css",
+			"settings":
+			{
+				"buffer_size": 3168,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 630,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles/sass/style.sass",
+			"settings":
+			{
+				"buffer_size": 14911,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7157,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fale-conosco.html",
+			"settings":
+			{
+				"buffer_size": 4002,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nLiveStyle:\n---------\n\n  The updated LiveStyle package contains many bugfixes \n  and improvements, but also depends on most recent \n  version of LiveStyle for Chrome extension.\n  \n  Make sure your LiveStyle for Chrome version is at least 0.8.0.816,\n  otherwise current package will not work at all.\n  \n  If you experience any issues, please help me to debug them:\n  \n  1. Go to https://github.com/emmetio/livestyle-sublime/issues \n     and create a new issue with your problem description\n  2. It is important to *full* console log. You can find it via\n     `View > Show Console` menu item\n  3. If you are experienced ST user and everything seems to be fine\n     in console log, you can enable debug mode for LiveStyle: go to \n     `Preferences > Package Settings > Emmet LiveStyle > Settings - User`,\n     add `{\"debug\": true}` there and save the file.\n     You must restart editor to apply changes.\n",
+			"settings":
+			{
+				"buffer_size": 951,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "Packages/HTML Compressor/Html Compressor.sublime-build",
+	"command_palette":
+	{
+		"height": 150.0,
+		"selected_items":
+		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"paca",
+				"Package Control: Discover Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"minif",
+				"Minify Javascript"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 129.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alliance tour/html/index.html",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alliance tour/html/scripts/jquery.lofslider.js",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alliance tour/html/scripts/jquery.easing.js",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alliance tour/html/scripts/jquery.min.js",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alho com pimenta/site/sass/style.sass",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alho com pimenta/site/sass/default.sass",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alho com pimenta/site/sass/_normalize.sass",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alho com pimenta/site/sass/_text.sass",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alho com pimenta/site/sass/text.sass",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alho com pimenta/site/sass/_grid.sass",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alho com pimenta/site/sass/grid.sass",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alho com pimenta/site/styles/normalize.css",
+		"/C/Users/RodrigoLemos/Google Drive/clientes/alho com pimenta/site/sass/normalize.sass",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/xpi/js/slides.min.jquery.js",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/WebResource.axd",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/xpiScripts/Core/default.min.js",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/xpiScripts/Core/XP.Web.js",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/Scripts/Core/XP.Web.js",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/Scripts/modernizr-2.6.2.js",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/Scripts/jquery-1.8.3.min.js",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/Content/xpbootstrap.css",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/xpi/Generics/generics2012.css",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/Content/bootstrap.min.css",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/Content/bootstrap-responsive.min.css",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/xpi/Generics/megamenu.css",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/xpi/Generics/reset.css",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/xpi-html.sublime-workspace",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/xpi-html.sublime-project",
+		"/C/Users/rodrigo.lemos/Google Drive/Clientes/XP/XPI Html/index.html",
+		"/C/Users/rodrigo.lemos/Google Drive/Interfaces/Testes/Grunt/gruntfile.js",
+		"/C/Users/rodrigo.lemos/Google Drive/Interfaces/Testes/Grunt/package.json",
+		"/C/SVN/bbm/institucional/desenvolvimento/trunk/bbm-institucional.sublime-workspace",
+		"/C/SVN/bbm/institucional/desenvolvimento/trunk/bbm-institucional.sublime-project",
+		"/C/SVN/tim/revistaonline_2/desenvolvimento/trunk/2013Maio-RevistaTim/Data/stores.json",
+		"/C/Program Files (x86)/EasyPHP-12.1/mysql/my.ini",
+		"/C/Program Files (x86)/EasyPHP-12.1/modules/phpmyadmin3522x130325165200/config.inc.php",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/RevistaTim.sublime-project",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Styles/screen.css",
+		"/N/qx3.com.br/portal/tim/revistatim/version/version.json",
+		"/C/Users/rodrigo.lemos/Desktop/source/Selen.Wpf.SystemStyles/Styles.xaml",
+		"/C/tfs/BRPartners/BrPartners.Middle/QX3.BRP.Middle/Themes/Styles.xaml",
+		"/C/Users/rodrigo.lemos/Desktop/source/Selen.Wpf.SystemStyles/TextBoxStyles.xaml",
+		"/C/Users/rodrigo.lemos/Desktop/source/Selen.Wpf.SystemStyles/DataGridStyles.xaml",
+		"/C/Users/rodrigo.lemos/Desktop/source/Selen.Wpf.SystemStyles/AppTreeStyle.xaml",
+		"/C/Users/rodrigo.lemos/Desktop/Style.XAML",
+		"/C/Users/rodrigo.lemos/Desktop/source/Selen.Wpf.sln",
+		"/C/Users/rodrigo.lemos/Desktop/source/Selen.Wpf.SystemStyles/ComboBoxStyles.xaml",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/index.html",
+		"/C/SVN/Itau/itautrade/desenvolvimento/branches/piloto2.0/CompilarJS.bat",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Styles/jquery.mobile.css",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/main.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Styles/screen.min.css",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Data/stores.json",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Data/showcase.json",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Data/devices.json",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Data/plans.json",
+		"/C/Users/rodrigo.lemos/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Scripts/jquery.mobile.js",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/index_.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/Models/footer.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Scripts/jquery.util.js",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Data/ads.json",
+		"/C/SVN/tim/revistaonline/desenvolvimento/testes/googlemapsapi/index.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/config.xml",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Scripts/jquery.js",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Scripts/jquery.callpages.js",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/devices.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/showcase.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/libertywebtablet.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/considerations.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/libertyweb.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/editorial.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/home.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/geolocation.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Styles/sass/jquery.mobile.sass",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Scripts/jquery.tmpl.js",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/controleexpress.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/Models/header.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/pravocetim.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Views/torcedor.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Scripts/jquery.interfaces.js",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Data/produtos.json",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/config.rb",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/2012Dez-RevistaTim/Content/Styles/config.rb",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/Views/Models",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/Views/Home/Index.cshtml",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/Content/Css/sass/jquery.mobile.sass",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/Views/Shared/_MasterPage.cshtml",
+		"/P/Globo/Email Mkt/2012/Emails/10_Outubro/Eleições EUA/interfaces/email.html",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Content/Css/jquery.mobile.css",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Content/Css/sass/jquery.mobile.sass",
+		"/C/SVN/interfaces/Treinamento/Sass/Projeto Exemplo/RodrigoLemosOliveira/styles/sass/screen.scss",
+		"/C/SVN/interfaces/Treinamento/Sass/Projeto Exemplo/RodrigoLemosOliveira/styles/screen.css",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Content/Css/sass/ie.sass",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Content/Css/sass/print.sass",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Content/Css/config.rb",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Content/Css/screen.css",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Views/Shared/Error.cshtml",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Content/jquery.mobile.css",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Scripts/jquery.mobile.js",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Views/Shared/_Layout.cshtml",
+		"/C/SVN/tim/revistaonline/desenvolvimento/trunk/RevistaTim/RevistaTim/Scripts/jquery.js",
+		"/P/Qx3/_2012/email_marketing/Novo Site/htm/email-novosite.html",
+		"/C/Users/rodrigo.lemos/Downloads/json/02/index.html",
+		"/C/Users/rodrigo.lemos/Downloads/json/02/data.js",
+		"/C/Users/rodrigo.lemos/Downloads/json/02/scripts.js",
+		"/C/Users/rodrigo.lemos/Downloads/json/02/jquery.js",
+		"/C/Users/rodrigo.lemos/Downloads/json/index.html",
+		"/C/Users/rodrigo.lemos/Downloads/json/data.js",
+		"/C/Users/rodrigo.lemos/Downloads/json/scripts.js",
+		"/C/Users/rodrigo.lemos/Downloads/json/teste.js",
+		"/C/Users/rodrigo.lemos/Downloads/json/teste.json",
+		"/C/Users/rodrigo.lemos/Downloads/json/jquery.js",
+		"/P/Globo/CAT/proposta CAT novo/Interfaces/cadastro.html",
+		"/P/Globo/CAT/proposta CAT novo/Interfaces/escrever.html",
+		"/P/Globo/CAT/proposta CAT novo/Interfaces/logado.html",
+		"/P/Globo/CAT/proposta CAT novo/Interfaces/index.html",
+		"/C/SVN/interfaces/Repositório de Códigos/Javascript/qxStylingForms/index.html",
+		"/C/GIT/Interfaces/Plugins/qx-modal/style.css",
+		"/C/SVN/b2w/relatorio/desenvolvimento/trunk/QX3.B2W.WebSite/Scripts/Plugins/jQuery.qxStylingForms.js",
+		"/C/SVN/b2w/relatorio/desenvolvimento/trunk/QX3.B2W.WebSite/Content/Css/sass/_graficos.scss",
+		"/C/SVN/b2w/relatorio/desenvolvimento/trunk/QX3.B2W.WebSite/Content/Css/sass/ie9.scss",
+		"/C/SVN/b2w/relatorio/desenvolvimento/trunk/QX3.B2W.WebSite/Scripts/ReportComp/ReportComp.js",
+		"/C/SVN/b2w/relatorio/desenvolvimento/trunk/QX3.B2W.WebSite/Scripts/Modal/CreateIndicator.js",
+		"/C/SVN/b2w/relatorio/desenvolvimento/trunk/QX3.B2W.WebSite/Views/Modal/CreateIndicator.aspx",
+		"/C/SVN/b2w/relatorio/desenvolvimento/trunk/QX3.B2W.WebSite/Views/Modal/ListIndicator.aspx",
+		"/C/SVN/b2w/relatorio/desenvolvimento/trunk/QX3.B2W.WebSite/Scripts/Plugins/jquery.tooltip.js",
+		"/C/SVN/b2w/relatorio/desenvolvimento/trunk/QX3.B2W.WebSite/Scripts/Plugins/jQuery.qxModal.js"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\SVN\\Itau\\Itautrade\\desenvolvimento\\trunk\\Site.ItauCorretora"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"main-slider-content",
+			"340",
+			"js",
+			"0",
+			"<div class=\"event-item\">",
+			"conteudo",
+			"url(\"/xpi/",
+			"src=\"/XPI/",
+			"src='/XPI/",
+			"href=\"/XPI/",
+			"xpiScr",
+			"faceboo",
+			"facebok",
+			"http://www.xpi.com.br/http",
+			"br//",
+			"'",
+			"url(\"",
+			"201306201920",
+			"'",
+			"src='",
+			"href=\"",
+			"xpi/images/",
+			"/Scripts",
+			"/Content",
+			"/xpi",
+			"cor-detalhes",
+			"+background(",
+			"abas-conteudo-item",
+			"http://",
+			"\".",
+			"id=\"plans",
+			"target=\"_blank\"",
+			"liberty50smar",
+			"_blan",
+			"plans",
+			"Y Duos",
+			"facebook",
+			"facebook.com.br",
+			"map",
+			"id=\"#store",
+			"#store",
+			"<li><a class=\"stores\" href=\"#stores\">A TIM está onde você está</a></li>",
+			"passport",
+			"raz",
+			"0",
+			"data-role=\"footer\"",
+			"<li><a class=\"news\" href=\"#news\">Facebook</a></li>",
+			"faceb",
+			"\"latlong\": ",
+			"http://maps.google.com/maps?daddr=",
+			"<!--<li><a class=\"stores\" href=\"#stores\">A TIM está onde você está</a></li>-->",
+			"<a id=\"menu\" class=\"btn-navegue\" href=\"#\">Navegue por aqui</a>",
+			"<li><a class=\"home\" href=\"#home\">Início</a></li>",
+			"<li><a class=\"news\" href=\"#news\">Novidades</a></li>",
+			"<li><a class=\"stores\" href=\"#stores\">A TIM está onde você está</a></li>",
+			"regiao",
+			"ads",
+			"<li><a class=\"passport\" href=\"#\">Liberty Passport</a></li>",
+			"http://maps.google.com/maps?daddr=",
+			"destaques",
+			"\"long\"",
+			"\"lat\"",
+			"news",
+			"(){\n",
+			"Samsung-Corby.png",
+			"../images/ico/",
+			"../",
+			"devices",
+			"stores",
+			"<li><a class=\"compare\" href=\"#compare\">Compare</a></li>",
+			"<li><a class=\"whereis\" href=\"#\">A TIM está onde você está</a></li>",
+			"news",
+			"<li><a class=\"liberty50\" href=\"#\">Liberty +50 com Smartphone</a></li>",
+			"ui-sele",
+			"btn",
+			"json",
+			"devices",
+			"homeAds",
+			"ui-content",
+			"MP",
+			"4px",
+			"showcase",
+			"devices",
+			"p",
+			"ui-content",
+			"devices",
+			"ui-content",
+			"%\n",
+			"75em",
+			"dddddd",
+			"f0f0f0",
+			"obj",
+			"pages[i]",
+			"\"",
+			"url",
+			"../..",
+			"url",
+			"1px solid #D7D7D7",
+			"indicador-personalizado",
+			"indicador",
+			"analise",
+			"box-filtro-ana",
+			"data",
+			"disabled",
+			"close",
+			"dropDown",
+			"indicador-secunda",
+			"spnErro",
+			"feedbackError",
+			"selIndicador",
+			"isValid",
+			"início",
+			"_2",
+			"select",
+			"ajuda",
+			"modelsheet",
+			"modalSaibaUsarFerramenta",
+			"modalSaibaUsar",
+			"box",
+			"word",
+			" () {",
+			"expandCollapse",
+			"Histó",
+			"Deta",
+			"Dia da liq",
+			"word",
+			"grafico",
+			"console"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"url(\"http://www.xpi.com.br/xpi/",
+			"src=\"http://www.xpi.com.br/XPI/",
+			"src='http://www.xpi.com.br/XPI/",
+			"href=\"http://www.xpi.com.br/XPI/",
+			"http",
+			"br/",
+			"url(\"http://www.xpi.com.br/",
+			"src='http://www.xpi.com.br/",
+			"href=\"http://www.xpi.com.br/",
+			"http://www.xpi.com.br/xpi/images/",
+			"Scripts",
+			"Content",
+			"xpi",
+			"<li><a class=\"stores\" href=\"#stores\">Fale com a TIM</a></li>",
+			"data-role=\"footer\" data-tap-toggle=\"false\"",
+			"<!--<li><a class=\"news\" href=\"#news\">Facebook</a></li>-->",
+			"\"latlong\": \"",
+			"<li><a class=\"stores\" href=\"#stores\">A TIM está onde você está</a></li>",
+			"<a id=\"menu\" class=\"btn-navegue\" href=\"#\">Navegue aqui</a>",
+			"<!--<a id=\"menu\" class=\"btn-navegue\" href=\"#\">Navegue aqui</a>-->",
+			"<!--<li><a class=\"home\" href=\"#home\">Início</a></li>-->",
+			"<li><a class=\"news\" href=\"#news\">Facebook</a></li>",
+			"<!--<li><a class=\"stores\" href=\"#stores\">A TIM está onde você está</a></li>-->",
+			"<--<li><a class=\"stores\" href=\"#stores\">A TIM está onde você está</a></li>-->",
+			"<li><a class=\"passport\" href=\"#passport\">Liberty Passport</a></li>",
+			"\"longitude\"",
+			"\"latitude\"",
+			"samsung-corby.png",
+			"../Images/Ico/",
+			"../../",
+			"<!--<li><a class=\"compare\" href=\"#compare\">Compare</a></li>-->",
+			"",
+			"<li><a class=\"stores\" href=\"#stores\">A TIM está onde você está</a></li>",
+			"<li><a class=\"liberty50\" href=\"#liberty50smartphone\">Liberty +50 com Smartphone</a></li>",
+			"grid_24",
+			"    <p><strong>",
+			"</strong>",
+			"<strong>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "servicos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "styles/lofslider.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2936,
+								2936
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 798.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								630
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "styles/sass/style.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4554.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1008.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "fale-conosco.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								951,
+								951
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"project": "alliance-tour.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"cockpit.js",
+				"Scripts/Views/Cockpit/itau.cockpit.js"
+			],
+			[
+				"popup",
+				"Scripts/Plugins/jquery.popUp.js"
+			],
+			[
+				"site.mas",
+				"Views/Shared/Masters/Site.Master"
+			],
+			[
+				"index",
+				"Views/Cockpit/Index.aspx"
+			],
+			[
+				"cockpit.ie",
+				"Content/css/cockpit.ie.css"
+			],
+			[
+				"cockpit.css",
+				"Content/css/cockpit.css"
+			],
+			[
+				"inde",
+				"Views/Cockpit/Index.aspx"
+			],
+			[
+				"interface",
+				"Scripts/itau.interface.js"
+			],
+			[
+				"restr",
+				"Content/css/restricted.css"
+			],
+			[
+				"histo",
+				"Views/Produtos/CompraProgramada/Historico.aspx"
+			],
+			[
+				"interfaces",
+				"Scripts/itau.interface.js"
+			],
+			[
+				"graph",
+				"Scripts/Plugins/fusionCharts/Demo/graphInfRec.json"
+			],
+			[
+				"grafic",
+				"Scripts/Grafico.js"
+			],
+			[
+				"messa",
+				"xml/messages.xml"
+			],
+			[
+				"template",
+				"Content/css/template.css"
+			],
+			[
+				"style",
+				"Views/Produtos/Carteira/NotaCorretagem/ImpressaoNota/styles.css"
+			],
+			[
+				"efault.",
+				"Views/Produtos/Carteira/NotaCorretagem/ImpressaoNota/default.css"
+			],
+			[
+				"tour.x",
+				"xml/tour.xml"
+			],
+			[
+				"gridpla",
+				"Scripts/Views/Cockpit/itau.cockpit.gridplace.js"
+			],
+			[
+				"grudo",
+				"Views/Produtos/CompraProgramada/ModalResumoDaOrdem.aspx"
+			],
+			[
+				"gridplace",
+				"Scripts/Views/Cockpit/itau.cockpit.gridplace.js"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"template.i",
+				"Content/css/template.ie.css"
+			],
+			[
+				"templ",
+				"Content/css/template.css"
+			],
+			[
+				".asp",
+				"ModelSheet/Index.aspx"
+			],
+			[
+				".as",
+				"Global.asax"
+			],
+			[
+				"aspx",
+				"ModelSheet/Index.aspx"
+			],
+			[
+				"itau.in",
+				"Scripts/itau.interface.js"
+			],
+			[
+				"grid",
+				"Scripts/Views/Cockpit/itau.cockpit.gridplace.js"
+			],
+			[
+				"itau.cock",
+				"Scripts/Views/Cockpit/itau.cockpit.js"
+			],
+			[
+				"itau.inter",
+				"Scripts/itau.interface.js"
+			],
+			[
+				"cockpit.gr",
+				"Scripts/Views/Cockpit/itau.cockpit.gridplace.js"
+			],
+			[
+				"cock",
+				"Views/Shared/Cockpit.ascx"
+			],
+			[
+				"cockpit.as",
+				"Views/Shared/Cockpit.ascx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
