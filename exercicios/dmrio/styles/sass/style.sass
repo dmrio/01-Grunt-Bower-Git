@@ -1,0 +1,875 @@
+// RESET
+//=======================================================================================
+@import compass/reset
+@import compass/css3
+
+// BASE
+//=======================================================================================
+body
+	background: url(../imagens/bg-body.gif)
+	font-family: "Open Sans", Arial, Verdana, sans-serif
+	font-size: 14px
+	min-width: 1050px
+
+.clear
+	clear: both
+	width: 100%
+	height: 1px
+	display: block
+
+.container
+	width: 980px
+	margin: 0 auto
+	padding: 0 10px
+
+// HEADER e FOOTER
+//=======================================================================================
+.header
+	overflow: hidden
+	padding: 30px 0 0
+
+	.mark
+		float: left
+
+	.nav
+		float: right
+
+	.nav-list
+		margin: 68px 0 0
+
+	.nav-item
+		float: left
+		margin: 0 0 0 25px
+
+	.nav-link
+		+text-shadow(rgba(white, 1) 1px 1px 2px)
+		padding: 10px 0 5px
+		display: inline-block
+		color: #5c5c5b
+		font-size: 13px
+		text-decoration: none
+		text-transform: uppercase
+		font-weight: 600
+		border-bottom: 1px solid transparent
+
+		&.nav-link-selected,
+		&:hover
+			color: #dea42b
+			border-bottom: 1px solid #dea42b
+
+.footer
+	background: url(../imagens/bg-footer.png) top center no-repeat
+	height: 239px
+	padding-top: 100px
+
+	strong
+		font-weight: bold
+
+	.footer-contact
+		+text-shadow(rgba(white, 1) 1px 1px 2px)
+		border-bottom: 1px solid #bababa
+		padding: 30px 0
+		color: #605a5e
+		font-size: 13px
+		font-family: Arial, Verdana, sans-serif
+		line-height: 150%
+
+	.footer-copyright
+		border-top: 1px solid #ededed 
+		padding: 30px 0
+		font-family: Arial, Verdana, sans-serif
+		color: #787878
+		font-size: 12px
+
+		a
+			color: #787878
+			text-decoration: none
+
+			&:hover
+				text-decoration: underline
+
+// HOME
+//=======================================================================================
+
+.highlight
+	background: url(../imagens/bg-destaque.png) bottom center no-repeat
+	height: 518px
+	margin: 30px 0 0
+
+	.container
+		width: 1020px
+
+.intro-bar
+	+box-shadow(rgba(#000000, .3) 0 0 10px 2px)
+	+box-sizing(border-box)
+	background: url(../imagens/bg-content.jpg)
+	margin: 0 0 20px
+	padding: 45px
+	overflow: hidden
+	min-width: 1020px
+
+	h2
+		+text-shadow(rgba(white, 1) 1px 1px 2px)
+		font-size: 23px
+		color: #555555
+		text-transform: uppercase
+		font-weight: 600
+
+	h3
+		font-size: 15px
+		font-weight: normal
+		color: #dda32b
+		margin: 8px 0 0
+
+	p
+		font-family: Arial, Verdana, sans-serif
+		margin: 22px 0 0 
+		font-size: 13px
+		line-height: 150%
+
+	strong
+		font-weight: bold
+
+	.alliance-tour
+		float: left
+		width: 43%
+
+.useful-links
+	float: right
+	width: 48%
+
+.useful-links-list
+	overflow: hidden
+	margin: 15px 0 0
+
+.useful-links-item
+	width: 50%
+	float: left
+
+.useful-links-link
+	font-family: Arial, Verdana, sans-serif
+	color: #565154
+	text-decoration: none
+	text-transform: uppercase
+	font-weight: bold
+	font-size: 13px
+	display: block
+	padding: 25px 0 25px 55px
+	border-top: 1px solid #fff
+	border-bottom: 1px solid #c3c3c3
+
+	&.useful-links-visto
+		border-top: 0
+		background: url(../imagens/ico-vistos.png) no-repeat left center
+
+	&.useful-links-fuso
+		border-top: 0
+		background: url(../imagens/ico-fuso.png) no-repeat left center
+
+	&.useful-links-passaportes
+		background: url(../imagens/ico-passaportes.png) no-repeat left center
+	
+	&.useful-links-voo
+		background: url(../imagens/ico-voo.png) no-repeat left center	
+
+	&.useful-links-tempo
+		border-bottom: 0
+		background: url(../imagens/ico-tempo.png) no-repeat left center
+
+	&.useful-links-vacinas
+		border-bottom: 0
+		background: url(../imagens/ico-vacinas.png) no-repeat left center
+
+.chamadas
+	overflow: hidden
+	margin: 50px 0 20px
+
+.box-chamadas
+	h2
+		+text-shadow(rgba(white, 1) 1px 1px 2px)
+		font-size: 23px
+		color: #555555
+		text-transform: uppercase
+		font-weight: 600
+
+	h3
+		font-size: 15px
+		font-weight: normal
+		color: #dda32b
+		margin: 8px 0 0
+
+	p
+		font-family: Arial, Verdana, sans-serif
+		color: #605a5e
+		line-height: 150%
+
+		strong
+			font-weight: bold
+
+	&.trip
+		width: 32%
+		float: left
+
+		a
+			text-decoration: none
+
+		img
+			+box-shadow(rgba(black, .5) 0 0 5px)
+			border: 5px solid #fff
+			margin: 20px 0
+
+	&.news
+		width: 32%
+		float: left
+		margin: 0 0 0 1%
+
+		form
+			+box-shadow(rgba(black, .5) 0 0 5px)
+			border: 5px solid #fff
+			margin: 20px 0
+			background: #f4f4f4
+			position: relative
+			height: 206px
+
+		input[type=text]
+			+box-sizing(border-box)
+			border: 0
+			background: #f1ebdf
+			border-bottom: 1px solid #fff
+			display: block
+			margin: 0
+			width: 100%
+			padding: 29px 10px
+			outline: none
+			font-style: italic
+
+			&:focus
+				background: #e4ded3
+
+		.client-check
+			float: left
+			margin: 12px 0 0
+			color: #565154
+			font-size: 12px
+			font-weight: bold
+			padding: 10px
+
+			input[type=checkbox]
+				float: left
+				margin: 0 8px 0 0
+
+		.submit-form
+			float: right
+			margin: 15px 0 0
+
+		.feedbacks
+			position: absolute
+			font-size: 11px
+			display:block
+			left: 0
+			top: 0
+			right: 0
+			bottom: 0
+			background: rgba(255,255,255,0.9)
+			display: none
+
+			img
+				vertical-align: middle
+				margin-right: 5px
+
+		#msg-sucesso
+			position: absolute
+			left: 10px
+			width: 250px
+			display: inline-block
+			color: #4a7619
+			display: none
+			top: 50%
+			margin-top: -20px
+
+		#msg-erro
+			position: absolute
+			left: 10px
+			width: 250px
+			display: inline-block
+			color: #7b6a17
+			display: none
+			top: 50%
+			margin-top: -20px
+
+		#ajaxloader
+			display: inline-block
+			position: absolute
+			left: 10px
+			width: 250px
+			display: none
+			top: 50%
+			margin-top: -20px
+
+
+	&.facebook
+		width: 32%
+		float: right
+
+		.iframe-wrapper
+			+box-shadow(rgba(black, .5) 0 0 5px)
+			border: 5px solid #fff
+			margin: 20px 0
+			background: #fff
+			position: relative
+
+			&:after
+				content: " "
+				display: block
+				border-bottom: 1px solid #aaa
+				margin-top: -2px
+
+// Nossos serviços
+//=======================================================================================
+.nossos-servicos
+	.header
+		background: url(../imagens/bg-header.png) no-repeat bottom
+		padding-bottom: 190px
+
+	.content
+		overflow: hidden
+
+	.main-content
+		width: 620px
+		float: left
+		margin: 10px 0 0
+
+		p
+			margin: 22px 0
+			line-height: 150%
+			font-size: 13px
+			font-family: Arial, Verdana, sans-serif
+
+		h2
+			+text-shadow(rgba(#ffffff, 1) 1px 1px 2px)
+			font-size: 23px
+			color: #555
+			text-transform: uppercase
+			font-weight: 600
+			margin: 0
+
+		h3
+			+text-shadow(rgba(#ffffff, 1) 1px 1px 2px)
+			margin: 8px 0 0
+			padding: 0 
+			font-size: 15px
+			color: #dda32b
+
+		h4
+			+text-shadow(rgba(#ffffff, 1) 1px 1px 2px)
+			border-top: 1px solid #fff
+			display: block
+			margin: 0 0 15px
+			padding: 40px 0 0 
+			font-size: 13px
+			color: #dda32b
+
+			&.first
+				border-top: 0
+				padding: 0
+
+		ul
+			margin: 0
+			overflow: hidden
+			border-bottom: 1px solid #dedede
+			padding: 0 0 10px
+
+			&.last
+				border-bottom: 0
+
+			li
+				float: left
+				margin: 5px 0
+
+.column
+	float: right
+	width: 292px
+	margin: 10px 0 0
+
+	.box-chamadas
+		width: 100%
+
+		&.news
+			margin: 50px 0
+
+	.useful-links-item
+		width: 100%
+		float: none
+
+	.useful-links-link
+		padding: 15px 0 15px 55px
+		border-top: 1px solid #fff
+		border-bottom: 1px solid #dedede
+
+		&.useful-links-visto
+			border-top: 0
+
+		&.useful-links-vacinas
+			border-bottom: 0
+
+
+// Dicas de viagem
+//=======================================================================================
+.dicas
+	.dicas-intro
+		background: url(../imagens/viagens.png) no-repeat right top
+		padding: 30px 360px 0 0
+		margin-top: -30px
+		min-height: 330px
+
+	.header
+		background: url(../imagens/bg-header.png) no-repeat bottom
+		padding-bottom: 190px
+
+	.content
+	
+		h2
+			+text-shadow(rgba(#ffffff, 1) 1px 1px 2px)
+			font-size: 23px
+			color: #555
+			text-transform: uppercase
+			font-weight: 600
+			margin: 0
+
+		h3
+			+text-shadow(rgba(#ffffff, 1) 1px 1px 2px)
+			margin: 8px 0 0
+			padding: 0 
+			font-size: 15px
+			color: #dda32b
+
+		p
+			margin: 22px 0
+			line-height: 150%
+			font-size: 13px
+			font-family: Arial, Verdana, sans-serif
+
+		strong
+			font-weight: bold
+
+	.tabs
+		text-align: center
+		margin: 20px 0
+
+	.tab-item
+		+box-sizing(border-box)
+		margin: 0
+		width: 300px
+		border: 5px solid #fff
+		background: #f4f4f4 url(../imagens/submit-news.gif) no-repeat center right
+		color: #dda32b
+		font-size: 15px
+		display: block
+		padding: 0
+		text-decoration: none
+		height: 85px
+		display: inline-block
+
+		&.tab-selected
+			background-color: #dda32b
+			background-image: url(../imagens/ico-fechar.gif)
+
+			.tab-link
+				color: #fff
+
+				&.tab-1
+					background: url(../imagens/dicas/tab-1-1.png) no-repeat 10px 50%
+
+				&.tab-2
+					background: url(../imagens/dicas/tab-2-1.png) no-repeat 10px 50%
+
+				&.tab-3
+					background: url(../imagens/dicas/tab-3-1.png) no-repeat 10px 50%
+
+				&.tab-4
+					background: url(../imagens/dicas/tab-4-1.png) no-repeat 10px 50%
+
+				&.tab-5
+					background: url(../imagens/dicas/tab-5-1.png) no-repeat 10px 50%
+
+				&.tab-6
+					background: url(../imagens/dicas/tab-6-1.png) no-repeat 10px 50%
+
+				&.tab-7
+					background: url(../imagens/dicas/tab-7-1.png) no-repeat 10px 50%
+
+				&.tab-8
+					background: url(../imagens/dicas/tab-8-1.png) no-repeat 10px 50%
+
+				&.tab-9
+					background: url(../imagens/dicas/tab-9-1.png) no-repeat 10px 50%
+
+		&.tab-item-center
+			margin: 0 36px
+
+	.tab-link
+		+box-sizing(border-box)
+		display: table-cell
+		vertical-align: middle
+		text-align: center
+		padding: 0 70px 0 70px
+		width: 100%
+		width: 300px
+		height: 75px
+		line-height: 140%
+		color: #565154
+		text-transform: uppercase
+		font-size: 15px
+		text-decoration: none
+
+		&.tab-1
+			background: url(../imagens/dicas/tab-1.png) no-repeat 10px 50%
+
+		&.tab-2
+			background: url(../imagens/dicas/tab-2.png) no-repeat 10px 50%
+
+		&.tab-3
+			background: url(../imagens/dicas/tab-3.png) no-repeat 10px 50%
+
+		&.tab-4
+			background: url(../imagens/dicas/tab-4.png) no-repeat 10px 50%
+
+		&.tab-5
+			background: url(../imagens/dicas/tab-5.png) no-repeat 10px 50%
+
+		&.tab-6
+			background: url(../imagens/dicas/tab-6.png) no-repeat 10px 50%
+
+		&.tab-7
+			background: url(../imagens/dicas/tab-7.png) no-repeat 10px 50%
+
+		&.tab-8
+			background: url(../imagens/dicas/tab-8.png) no-repeat 10px 50%
+
+		&.tab-9
+			background: url(../imagens/dicas/tab-9.png) no-repeat 10px 50%
+
+	.tab-content
+		border: 1px solid #e5e5e5
+		padding: 10px 20px
+		background: #fff
+		font-family: Arial, Verdana, sans-serif
+		font-size: 12px
+
+		li
+			line-height: 140%
+
+		> ul
+			> li
+				margin: 10px 0
+				border-top: 1px solid #f7e9cd
+				padding: 10px 0 0
+
+				&:first-child
+					padding: 0
+					border-top: 0
+
+				&:before
+					content: "• "
+					color: #dda32b
+
+			ul
+				margin: 0 0 20px 0
+
+				li
+					margin: 10px 0 10px 10px
+
+					&:before
+						content: "- "
+
+
+
+
+// Monte seu roteiro
+//=======================================================================================
+.seu-roteiro
+	.header
+		background: url(../imagens/bg-header.png) no-repeat bottom
+		padding-bottom: 190px
+
+	.content
+		margin-top: -20px
+
+	.main-content
+		h2
+			+text-shadow(rgba(#ffffff, 1) 1px 1px 2px)
+			font-size: 23px
+			color: #555
+			text-transform: uppercase
+			font-weight: 600
+			margin: 0
+			display: block
+			text-align: center
+
+		h3
+			+text-shadow(rgba(#ffffff, 1) 1px 1px 2px)
+			margin: 8px 0 0
+			padding: 0 
+			font-size: 15px
+			color: #555
+			display: block
+			text-align: center
+
+		form
+			.subtitle
+				display: block
+				text-align: center
+				text-transform: uppercase
+				color: #555
+				padding: 37px 0 20px
+				font-size: 16px
+
+			fieldset
+				position: relative
+				margin: 50px 0 30px
+				padding-bottom: 40px
+				background: url(../imagens/linha.gif) repeat-x 0 17px
+
+				&#step3
+					margin-top: 10px
+
+			legend
+				+text-shadow(rgba(#ffffff, 1) 1px 1px 2px)
+				left: 50%
+				position: absolute
+				top: 0
+				padding: 5px
+				background: #f0f0f0
+				font-size: 23px
+				color: #dda32b
+				text-transform: uppercase
+				font-weight: 600
+				margin: 0
+				width: 140px
+				margin-left: -70px
+				text-align: center
+				display: inline-block
+
+			.check-form
+				color: #7fb625
+				font-size: 17px
+				display: block
+				text-align: center
+				margin: 20px 0
+
+			.destination
+				color: #19a3ca
+				font-size: 17px
+				display: block
+				text-align: center
+				margin: 20px 0 40px
+
+			.submit-form
+				+box-sizing(border-box)
+				margin: 40px auto 0
+				width: 215px
+				border: 5px solid #fff
+				background: #f4f4f4 url(../imagens/submit-news.gif) no-repeat center right
+				color: #dda32b
+				font-size: 15px
+				display: block
+				padding: 25px 20px
+				text-decoration: none
+
+			.next-step
+				+box-sizing(border-box)
+				margin: 40px 0 0
+				width: 185px
+				border: 5px solid #fff
+				background: #f4f4f4 url(../imagens/submit-news.gif) no-repeat center right
+				color: #dda32b
+				font-size: 15px
+				display: block
+				padding: 25px 20px
+				text-decoration: none
+				position: absolute
+				left: 50%
+				margin-left: -92px
+				bottom: -40px
+
+
+			label
+				display: block
+				margin: 0 0 3px
+				font-size: 12px
+				font-family: Arial, verdana, sans-serif
+
+			input[type=text]
+				+box-sizing(border-box)
+				border: 1px solid #dddddd
+				+background-image(linear-gradient(#fff, #f5f5f5))
+				margin: 0 0 20px
+				padding: 5px
+				font-size: 13px
+				width: 100%
+				font-family: Arial, verdana, sans-serif
+
+			textarea
+				+box-sizing(border-box)
+				border: 1px solid #dddddd
+				+background-image(linear-gradient(#fff, #f5f5f5))
+				margin: 0 0 20px
+				padding: 5px
+				font-size: 13px
+				width: 100%
+				font-family: Arial, verdana, sans-serif
+				resize: none
+				height: 91px
+				z-index: 1
+				position: relative
+
+			.form-column
+				width: 30%
+				float: left
+
+				&.form-column-center
+					margin: 0 5%
+
+			.form-line
+				&.form-line-options
+					padding: 14px 0 0
+
+					label
+						margin: 0 0 5px
+
+
+
+// Fale Conosco
+//=======================================================================================
+.fale-conosco
+	.header
+		background: url(../imagens/bg-header.png) no-repeat bottom
+		padding-bottom: 190px
+
+	h2
+		+text-shadow(rgba(#ffffff, 1) 1px 1px 2px)
+		font-size: 23px
+		color: #555
+		text-transform: uppercase
+		font-weight: 600
+		margin: 0
+
+	h3
+		+text-shadow(rgba(#ffffff, 1) 1px 1px 2px)
+		margin: 8px 0 0
+		padding: 0 
+		font-size: 15px
+		color: #dda32b
+
+	.googlemaps
+		iframe
+			+box-shadow(rgba(black, .5) 0 0 5px)
+			border: 5px solid #fff
+			margin: 30px 0
+
+	.content
+		overflow: hidden
+
+	.main-content
+		width: 620px
+		float: left
+		margin: 10px 0 0
+		padding: 0 60px 0 0
+
+		form
+			margin: 20px 0
+
+		label
+			display: block
+			margin: 0 0 3px
+			font-size: 12px
+			font-family: Arial, verdana, sans-serif
+
+		input[type=text]
+			+box-sizing(border-box)
+			border: 1px solid #dddddd
+			+background-image(linear-gradient(#fff, #f5f5f5))
+			margin: 0 0 20px
+			padding: 5px
+			font-size: 13px
+			width: 100%
+			font-family: Arial, verdana, sans-serif
+			font-style: italic
+
+		textarea
+			+box-sizing(border-box)
+			border: 1px solid #dddddd
+			+background-image(linear-gradient(#fff, #f5f5f5))
+			margin: 0 0 20px
+			padding: 5px
+			font-size: 13px
+			width: 100%
+			font-family: Arial, verdana, sans-serif
+			resize: none
+			height: 140px
+			z-index: 1
+			position: relative
+			font-style: italic
+
+		.submit-form
+			float: right
+			margin: -60px 1px 0
+			z-index: 99
+			position: relative
+
+		.feedbacks
+			position: relative
+			font-size: 11px
+			height: 20px
+			display:block
+
+			img
+				vertical-align: middle
+				margin-right: 5px
+
+		#msg-sucesso
+			position: absolute
+			left: 10px
+			width: 250px
+			display: inline-block
+			color: #4a7619
+			display: none
+			top: 12px
+
+		#msg-erro
+			position: absolute
+			left: 10px
+			width: 250px
+			display: inline-block
+			color: #7b6a17
+			display: none
+			top: 12px
+
+		#ajaxloader
+			display: inline-block
+			position: absolute
+			left: 10px
+			width: 250px
+			display: none
+			top: 12px
+	
+	.other-contacts
+		margin: 5px 0 0
+		color: #322f31
+		font-size: 12px
+		font-family: Arial, verdana, sans-serif
+		line-height: 150%
+
+		li
+			padding: 15px 0
+			border-top: 1px solid #fff
+			border-bottom: 1px solid #dedede
+
+			&.end
+				border-top: 0
+
+			&.face
+				border-bottom: 0
+
+		strong
+			font-weight: bold
