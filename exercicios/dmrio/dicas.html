@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Dicas - Alliance Tour</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/style.css" />
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function(){	
+			$('.tab-content').hide();
+
+			$('.tab-link').each(function() {
+				var _this = $(this);
+				var id = _this.data('id');
+				var tab = $('#' + id);
+
+				_this.on('click', function(e) {
+					$('.tab-item').removeClass('tab-selected');
+					if (tab.is(':visible') ) {
+						//_this.parent().removeClass('tab-selected');
+						tab.slideUp('fast');
+					} else {
+						$('.tab-content').hide();
+						_this.parent().addClass('tab-selected');
+						tab.slideDown('fast');						
+					}
+
+					e.preventDefault();
+				});
+			});
+		});
+	</script>
+
+</head>
+<body class="dicas">
+	<header class="header">
+		<div class="container">
+			<h1 class="mark">
+				<a href="index.html"><img src="imagens/marca-alliance-tour.png" alt="Alliance Tour - Agência de Viagens e Turismo" /></a>
+			</h1>
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a class="nav-link" href="index.html">Página inicial</a></li>
+					<li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+					<li class="nav-item"><a class="nav-link nav-link-selected" href="dicas.html">Dicas de viagem</a></li>
+					<li class="nav-item"><a class="nav-link" href="seu-roteiro.html">Monte seu roteiro</a></li>
+					<li class="nav-item"><a class="nav-link" href="fale-conosco.html">Fale conosco</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="content">
+		<div class="container">
+			<div class="main-content">
+				<div class="dicas-intro">
+					<h2>Manual do viajante</h2>
+					<h3>Dicas para uma viagem segura</h3>
+					<p>Que tal viajar com tranquilidade e aproveitar cada momento de seu passeio da melhor maneira possível?</p>
+					<p><strong>Confira abaixo algumas dicas úteis que a Alliance Tour preparou para todos os tipos de viagens (nacionais e internacionais) a fim de que todos os momentos do seu passeio sejam aproveitados!</strong></p>	
+				</div>
+				<ul class="tabs">
+					<li class="tab-item"><a data-id="tab1" class="tab-link tab-1" href="#">Viajando pela primeira vez</a></li>
+					<li class="tab-item tab-item-center"><a data-id="tab2" class="tab-link tab-2" href="#">Passaporte</a></li>
+					<li class="tab-item"><a data-id="tab3" class="tab-link tab-3" href="#">Vistos consulares</a></li>
+				</ul>
+				<div class="tab-content" id="tab1">
+					<p><strong>Se esta é sua primeira viagem, fique sempre atento a alguns detalhes que farão toda a diferença em seu passeio:</strong></p>
+					<ul>
+						<li>Primeiramente, tenha certeza de que escolheu o Pacote Turístico que mais agradou e se encaixou com seu planejamento. Antes de fechar a compra, pesquise e solicite o máximo de informações possíveis ao seu Consultor de Viagens.</li>
+						<li>Nunca deixe para arrumar sua mala na última hora, procure sempre fazer isto pelo menos 48 horas antes do embarque para que não esqueça nenhum ítem importante. Preferencialmente, arrume sua mala aos poucos ou faça sempre uma lista do que irá precisar. Mas não esqueça: não exagere pois para cada destino há um limite de bagagem!</li>
+						<li>Ao receber seu voucher de viagem cheque todos os dados (nomes, datas, números e horários dos vôos e principalmente o Aeroporto de embarque pois a maioria das grandes cidades possuem mais de um Aeroporto). Como o check in junto a Companhia Aérea não é rápido pois terão diversas pessoas para embarcar no mesmo avião, é recomendável chegar com 03 horas de antecedência no Aeroporto para não correr o risco de pegar uma longa fila (quanto mais próximo da hora da viagem, maior será) ou perder seu vôo.</li>
+						<li>Tenha sempre atenção e ande a todo momento com sua bagagem próxima a você dentro do Aeroporto para não sofrer ação de criminosos que buscam itens valiosos (aparelhos eletrônicos e dinheiro). Nunca deixe seus pertences pessoais com alguém que não conheça ou confie.</li>
+						<li>Toda viagem começa antes do embarque, por isso, procure se informar ao máximo sobre o (s) destino (s) que visitará. Adquira livros turísticos e mapas para saber quais são as melhores atrações e costumes locais. Desta forma, você terá maior aproveitamento de seu tempo em cada destino. Além disso, ao desembarcar em outro país, responda sempre com seriedade às perguntas da Polícia Federal e da Imigração pois seu ingresso no país dependerá destas respostas.</li>
+						<li>Preste sempre atenção ao peso e dimensões de sua bagagem e evite problemas como ter que pagar uma taxa extra (normalmente um valor bem alto) por excesso de peso ou excesso de bagagem. O limite de bagagem dependerá de cada Companhia Aérea e de cada trecho viajados entre os países. Pergunte sempre ao seu Consultor de Viagens estas informações para não ter nenhuma surpresa. Um outro cuidado com a bagagem: muitas possuem um design bonito e moderno porém são muito pesadas, o que pode acabar limitando o que irá ser transportado em seu interior.</li>
+						<li>Não carregue na mala de mão itens líquidos com mais de 100ml. Alguns países possuem restrição e, caso não estejam dentro do limite permitido, os itens serão confiscados.</li>
+						<li>Identifique as bagagens que serão despachadas e as bagagens de mão (na parte interna e externa) com seus dados pessoais – nome, endereço e telefone. Para facilitar a localização de sua bagagem na esteira do Aeroporto quando chegar em seu destino, coloque sempre uma fita chamativa ou algum outro sinal de fácil identificação.</li>
+						<li>Procure saber sobre as condições climáticas de seu destino (pela manhã e pela noite) e se previna contra frio ou calor excessivo.</li>
+						<li>Leve sempre na bagagem de mão uma muda para troca de roupa e um casaco.</li>
+						<li>Procure saber sobre a voltagem elétrica do destino e não se esqueça de levar adaptadores para aparelhos elétricos, principalmente se for levar celular ou notebook.</li>
+					</ul>
+				</div>
+				<div class="tab-content" id="tab2">
+					<ul>
+						<li>O Passaporte é seu documento de identificação internacional. Além de possuir seus dados pessoais, nele constam o carimbo e o visto (quando o país a ser visitado exigir) de autorização para sua entrada, trânsito ou permanência no país.</li>
+						<li>Se seu plano for viajar para o exterior, antes de fechar seu Pacote em uma Agência de Viagens, a primeira medida deverá ser providenciar com a máxima antecedência possível o documento.</li>
+						<li>Caso você já possua, verifique se está no prazo de validade (a validade deverá ser de pelo menos 6 meses da data de saída do Brasil) para não correr o risco de seu Passaporte expirar no decorrer da viagem. Alguns países só concedem o visto se o Passaporte estiver dentro desta validade. Caso contrário, será necessário a renovação do documento para viajar ou conseguir o visto de entrada no país que será visitado.</li>
+						<li>Se seu Passaporte for perdido, extraviado ou roubado deverá ser registrado imediatamente uma ocorrência policial. Deste modo,  é possível impedir o uso indevido do documento. De qualquer maneira, uma taxa para a retirada de um novo Passaporte será cobrada.</li>
+						<li>Caso o extravio, perda ou roubo aconteça em outro país, a Polícia Federal orienta que se procure imediatamente a Embaixada ou Consulado Brasileiro mais próximo para que as autoridades o auxiliem na retirada de um novo Passaporte ou documento específico para retornar ao seu país.</li>
+						<li>Não deixe de levar em sua viagem, além dos documentos originais, uma cópia do Passaporte e da Carteira de Motorista. Mesmo que não tenha a intenção de alugar um carro, pode ser que surja uma oportunidade.</li>
+					</ul>
+				</div>
+				<div class="tab-content" id="tab3">
+					<ul>
+						<li>A próxima providência a ser tomada caso se deseje viajar para o exterior é procurar saber se o país de seu destino exige visto no Passaporte junto a Embaixada ou Consulado para permitir sua entrada. Esta exigência de visto acontece, por exemplo, em países como os Estados Unidos e o Canadá. A dificuldade em se obter esta autorização também depende do local escolhido.</li>
+						<li>A sugestão é procurar a Embaixada ou Consulado do país de destino para saber o que é necessário fazer para obter a autorização. Normalmente são exigidos documentos como Identidade, CPF, Passaporte, declaração do Imposto de Renda, comprovante de residência, contra-cheque, passagens de ida e volta e comprovante de hospedagem.</li>
+					</ul>
+				</div>
+				<ul class="tabs">
+					<li class="tab-item"><a data-id="tab4" class="tab-link tab-4" href="#">Reservas</a></li>
+					<li class="tab-item tab-item-center"><a data-id="tab5" class="tab-link tab-5" href="#">Crianças</a></li>
+					<li class="tab-item"><a data-id="tab6" class="tab-link tab-6" href="#">Vacinas e Saúde</a></li>
+				</ul>
+				<div class="tab-content" id="tab4">
+					<ul>
+						<li>A reserva de um Pacote Turístico é a próxima etapa para a realização de seu sonho, por isso, escolha sempre uma Agência de Viagem cadastrada na Embratur e com ótimas referências e indicações. A importância desta seletiva procura está em garantir que tudo transcorra sem imprevistos, com os melhores preços e serviços. O Agente de Viagens deve cuidar de todo seu passeio com cuidado e fornecendo todas as informações necessária para que sua viagem não tenha qualquer tipo de problema desnecessário.</li>
+						<li>Um bom Agente de Viagens, além de ser um profissional competente e que respeite o cliente, deve estar sempre a disposição para ajudar a resolver qualquer problema que apareça e que esteja a seu alcance, não somente com a venda do Pacote Turístico adquirido.</li>
+						<li>Uma boa Agência de Viagens e Turismo é fundamental para que sua viagem seja mais prazerosa, segura e com melhor custo benefício. A Agência deverá cuidar da compra de suas passagens, indicar hotéis e serviços que se encaixem em seu perfil, além de fornecer informações importantes e essenciais para que você ganhe tempo ou evite fazer despesas desnecessária.</li>
+						<li>Solicite sempre as Condições Gerais (Contrato) e todas as trocas de informações por escrito (e-mails, por exemplo) para que você fique seguro sobre como proceder em caso de eventual cancelamento, além dos direitos quanto a reembolso parcial ou total de sua viagem.</li>
+					</ul>
+				</div>
+				<div class="tab-content" id="tab5">
+					<ul>
+						<li>Os cuidados em relação a crianças e adolescentes começam na retirada do Passaporte. Todos os menores de 18 anos precisam de uma Autorização por escrito dos pais ou dos representantes legais, com firma reconhecida por autenticidade em cartório, número da cédula de Identidade e assinaturas para receber o Documento. Caso não seja possível ter a autorização de um ou ambos os pais ou do representante legal, essa medida poderá ser pedida ao Juiz da Infância e da Adolescência, que enviará o ofício a Polícia Federal. O pagamento da taxa deverá ser feito com o CPF do representante legal.</li>
+						<li>Para receber o documento, o menor deverá comparecer pessoalmente e acompanhado do responsável legal. Quem tiver filhos entre zero e cinco anos, o prazo de validade do Passaporte será determinado pela idade da criança. Após os quatro anos, a validade se torna igual à de um adulto.</li>
+						<li>Tanto em viagem Nacional quanto em viagem Internacional é preciso obedecer ao Estatuto da Criança e do Adolescente. Nenhuma criança poderá viajar para fora de onde reside desacompanhada dos pais ou responsáveis legais sem expressa autorização judicial. No caso de viagem ao exterior, a autorização é dispensável se a criança ou adolescente estiver acompanhado de ambos os pais ou do responsável legal. Se a criança viajar na companhia somente de um dos pais, sera necessária a autorização por escrito do outro responsável, em 2 vias, através de documento com firma reconhecida por autenticidade. Para tirar qualquer dúvida, procure o Juizado de Menores mais próximo de sua casa.</li>
+					</ul>
+				</div>
+				<div class="tab-content" id="tab6">
+					<ul>
+						<li>Para entrar em alguns países ou mesmo viajar por algumas regiões do Brasil é necessário que se apresente atestado de que tomou determinadas vacinas. Quase sempre esta medida tem a ver com sua própria proteção. A vacina contra febre amarela, por exemplo, é uma das vacinas exigidas em alguns países. É gratuita e pode ser adquirida nos postos de saúde de seu município ou estado e o atendente lhe dará um comprovante que deverá ser apresentado no destino. Caso você vá para o exterior e esta seja uma vacina obrigatória, será necessário a apresentação do Certificado Internacional, que deverá ser adiquirido nos postos que façam a emissão desse certificado, mediante apresentação do Passaporte. É obrigatório que esta vacina seja tomada no máximo 15 dias antes do embarque.</li>
+						<li>Algumas pessoas não podem tomar certas vacinas por rejeição do organismo. Neste caso, será necessário um laudo médico com os motivos pelos quais não pode ser vacinado. Entre em contato com o Posto de Saúde mais próximo e verifique se é necessário algum outro documento, além do atestado médico.</li>
+						<li>Para quem vai ao Hemisfério Norte, o Ministério da Saúde orienta que tome a vacina contra gripe nos períodos considerados mais frios.</li>
+					</ul>
+				</div>
+				<ul class="tabs">
+					<li class="tab-item"><a data-id="tab7" class="tab-link tab-7" href="#">Medicamentos</a></li>
+					<li class="tab-item tab-item-center"><a data-id="tab8" class="tab-link tab-8" href="#">Bagagem</a></li>
+					<li class="tab-item"><a data-id="tab9" class="tab-link tab-9" href="#">Seguro de Viagem</a></li>
+				</ul>
+				<div class="tab-content" id="tab7">
+					<ul>
+						<li>Passageiros que precisam levar medicamentos para o exterior por motivo de doenças crônicas ou tratamentos que não possam ser interrompidos, devem se informar sobre armazenagem, quantidade, necessidade de receitas e cuidados de conservação. O ideal é levar os medicamentos na quantidade que considerar suficiente para todo o período da viagem.</li>
+						<li>Lembrando que medicamentos líquidos não podem passar de 100ml por embalagem na babagem de mão.</li>
+					</ul>
+				</div>
+				<div class="tab-content" id="tab8">
+					<p><strong>Bagagem de mão</strong></p>
+					<ul>
+						<li>5 quilos é o máximo permitido para bagagem de mão. A soma de suas dimensões (comprimento + largura + altura) não podem ultrapassar 115 cm. Ela deve caber embaixo do assento do avião ou nos compartimentos acima das poltronas. Em vôos nacionais, muitos países permitem um maior limite de peso podendo chegar até 18 quilos na Classe Executiva para alguns destinos.
+							<ul>
+								<li>Se a bagagem de mão for muito grande a Companhia Aérea pode exigir que a bagagem seja despachada e o passageiro terá que entrar novamente na fila do check in.</li>
+								<li>Caso tenha algum item restrito, na verificação da bagagem de mão no Raio-X, antes da área de embarque, o funcionário do Aeroporto pedirá para você retirar o item da mala para poder prosseguir com a viagem. Exemplos de itens restritos: tesourinha de unha, isqueiro, entre outros.</li>
+								<li>Só é permitido levar uma quantidade limitada de líquidos, cremes e latas de aerossol na bagagem de mão. É proibido que o recipiente de cada um deles exceda 100 ml. Os itens devem ser colocados em uma embalagem plástica transparente e selada de 20 cm x 20 cm. O volume total dos artigos não pode ultrapassar 1 litro.</li>
+								<li>Perfumes, bebidas e qualquer outro líquido adquirido no Free Shop devem ficar em embalagens plásticas seladas e ter o recibo de compra à mostra.</li>
+								<li>Não esqueça de colocar na bagagem de mão uma troca de roupa caso sua (s) mala (s) seja (m) extraviada (s). Uma escova de dente também é aconselhável.</li>
+							</ul>
+						</li>
+					</ul>
+					<p><strong>Bagagem para despachar</strong></p>
+					<ul>
+						<li>Vôos Nacionais: 23 kg de bagagem é o total permitido para cada passageiro em vôos Nacionais (a quantidade e a dimensão desses volumes varia conforme a empresa aérea) e na América do Sul.</li>
+						<li>Vôos Internacionais: Para viagens com começo no Brasil é permitido duas malas de, no máximo, 32 kg cada no total por passageiro em vôos do Brasil para Europa e Estados Unidos.</li>
+						<li>Em viagens com início no exterior, a franquia costuma ser de duas bagagens de, no máximo, 23 kg cada.
+							<ul>
+								<li>Se os trechos forem comprados separadamente, o passageiro estará sujeito à legislação do país onde o bilhete foi comprado.</li>
+								<li>Procure usar cadeados ou plastificar a mala para evitar furtos. Fique atento que países como os Estados Unidos permitem que seus agentes inspecionem bagagens. Eles poderão destruir seu cadeado ou a abertura da mala. Para evitar o transtorno, use cadeados aprovados pela TSA - Transport Security Administration.</li>
+								<li>Coloque um adesivo ou fita colorida na mala para diferenciá-la e não correr risco de trocar sua bagagem com outro passageiro.</li>
+								<li>Deixe uma etiqueta com seus dados, como nome e telefone.</li>
+								<li>Guarde o comprovante de despacho de bagagem. Ele será necessário caso sua mala seja extraviada.</li>
+							</ul>
+						</li>
+					</ul>
+					<p><strong>O que NÃO é permitido</strong></p>
+					<ul>
+						<li>Materiais esportivos, instrumentos musicais e outros artigos: em vôos nacionais, eles podem ser despachados desde que não excedam o limite de 23 kg. Cada Companhia possui suas próprias regras.</li>
+						<li>Alimentos
+							<ul>
+								<li>Em vôos Nacionais: são permitidos, mas devem ser despachados em embalagens que evitem vazamento, abertura e mau cheiro.</li>
+								<li>Em vôos para Europa: é proibido transportar produtos de origem animal (carnes, peixes, leite e queijos)</li>
+								<li>Em vôos para os Estados Unidos: é proibido leval alimentos frescos e facilmente perecíveis.</li>
+							</ul>
+						</li>
+						<li>Animais de estimação: é cobrada uma taxa para levar animais de estimação. Deve-se apresentar atestado de saúde do animal e a maioria das companhias aéreas não permite levá-los na cabine de passageiros. O animal deve ser entregue no check in dentro de uma caixa de transporte especial.</li>
+						<li>Plantas
+							<ul>
+								<li>Em vôos Nacionais: Podem ser transportadas como bagagem de mão ou despachadas (depende do peso e do tamanho). Em alguns casos é preciso ter documentos para poder viajar com a planta.</li>
+								<li>Em vôos Internacionais: As plantas devem ser despachadas e é preciso consultar o Ministério da Agricultura para verificar a legislação vigente e os documentos necessários.</li>
+							</ul>
+						</li>
+						<li>Objetos de valor: Evite despachar jóias, dinheiro e eletroeletrônicos. Leve-os sempre na bagagem de mão. Se decidir despachar, peça um formulário para declarar bens.</li>
+						<li>O que é proibido despachar: Materiais explosivos (como fogos de artifícios); Produtos tóxicos (como pesticidas para matar baratas); Sólidos ou líquidos inflamáveis (como álcool puro, gasolina, naftalina); Armas (de fogo, de caça ou de brinquedo).</li>
+						<li>Declaração de Bens: Na hora do check-in, você pode preencher um formulário e declarar o valor dos objetos de sua mala caso leve bens de valor. A companhia aérea está autorizada a verificar o conteúdo e também a cobrar uma taxa sobre o valor declarado.</li>
+					</ul>
+					<p><strong>Bagagem extraviada</strong></p>
+					<ul>
+						<li>Extravio: Se o passageiro não encontrar sua bagagem ao chegar a seu destino, avise a companhia aérea ainda na área de desembarque. Caso seja localizada, a bagagem deve ser devolvida para o endereço informado pelo passageiro. Se não for encontrada em 30 dias (vôos nacionais) ou em 21 dias (vôos internacionais), a empresa deve indenizar o passageiro.</li>
+						<li>Bagagem Danificada: Avise a companhia aérea ainda na área de desembarque. Você também pode comunicar qualquer dano por escrito e registrar na companhia num prazo de sete dias.</li>
+						<li>Furto: Se alguém levar sua bagagem ou faltar algum item nela, avise a companhia aérea ainda na área de desembarque e registre um boletim de ocorrência na polícia. A companhia aérea é responsável pela bagagem do momento em que ela é despachada até a sua devolução ao passageiro.</li>
+						<li>A bagagem de mão é de responsabilidade do passageiro.</li>
+					</ul>
+					<p><strong>Excesso de bagagem</strong></p>
+					<ul>
+						<li>Evite comprar passagens para o exterior separadamente: Caso o passageiro emita trechos de sua viagem fora do Brasil poderá ser surpeendido. o limite de peso pode ser diferente dos 32 kg permitidos em passagens adquiridas no Brasil. Por exemplo, caso o passageiro tenha viajado para Inglaterra e de lá decide comprar um bilhete para a Itália, o limite de bagagem dessa viagem poderá cair para 20 kg.</li>
+						<li>Alternativas para não pagar o excesso de bagagem: Em trechos internos de uma viagem no exterior, você pode utilizar o guarda-volumes de um aeroporto para guardar parte de sua bagagem. Depois, no retorno, é só retirar seus pertences.</li>
+						<li>Companhias Aéreas de baixo custo na Europa e América do Norte: Quase todas estas empresas oferecem franquias menores de bagagem, com limites de peso que podem chegar a apenas 15 kg.</li>
+						<li>Caso tenha excesso, normalmente é paga uma taxa pelo excesso de peso. No entanto a Companhia Aérea pode obrigar o passageiro a se livrar de parte da bagagem. Lembrando que a taxa pode ser bem alta, em alguns caso, ultrapassando o valor do bilhete aéreo.<br /><br />
+						Algumas dicas para lidar com o peso excedente:
+						<ul>
+							<li>Utilize uma mala feita de material leve.</li>
+							<li>Quando estiver arrumando a mala para viajar, pense se realmente precisa levar uma peça ou um calçado que somente será usado em um dia.</li>
+							<li>Tente levar uma bolsa vazia dentro da mala. Em algumas Companhias Aéreas, é mais econômico pagar uma mala extra do que o peso excedente.</li>
+							<li>Muitas Companhias Aéreas permitem o pré-pagamento do excesso de bagagem com desconto. Caso o passageiro já saiba que voltará com malas muito pesadas, procure se informar junto a Companhia Aérea alguns dias antes do embarque.</li>
+							<li>Em vôos Nacionais, as Companhias Aéreas cobram 0.5% do valor da passagem aérea por quilo excedente. Lembrando que neste caso, o preço do bilhete aéreo refere-se à tarifa cobrada no dia do embarque, ou seja, é um valor bem mais alto em comparação aos preços promocionais praticados dias antes.</li>
+						</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-content" id="tab9">
+					<ul>
+						<li>O cartão de assistência para viagem é um tipo de seguro que oferece ajuda imediata em qualquer emergência para os turistas que viajam por meio de Pacotes turísticos. <br />
+						Para isso, responde de forma rápida, mesmo nas situações mais complexas, à sua chamada. São assessorias emergenciais que vão desde o que fazer caso a bagagem  extravie ou onde conseguir um médico qualificado.</li>
+						<li>Em alguns destinos este Seguro é obrigatório e com um determinado valor de cobertura, como é o caso dos países na Europa.</li>
+						<li>A Alliance Tour sempre colocará em seus Pacotes o Seguro de Viagem pois é um imprescindível apoio para que sua viagem transcorra na mais absoluta tranqüilidade.</li>
+					</ul>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<img class="footer-embratur" src="imagens/marca-embratur.png" alt="Embratur" />
+			<div class="footer-contact">
+				<p>Telefone: (21) 2232-8114 | Rua da Quitanda, 62 sala 1001<br />
+				Centro, Rio de Janeiro, Brasil | CEP: 20011-030</p>
+			</div>
+			<div class="footer-copyright">
+				<p>Copyright © Alliancetour.com.br | Desenvolvido por <a href="http://www.marianahilario.com.br">Mariana Hilario</a></p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
